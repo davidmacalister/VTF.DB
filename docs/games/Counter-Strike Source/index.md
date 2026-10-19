@@ -119,6 +119,12 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
+|![](img/skyr19L.webp)|![](img/assault_skybox_building01.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr19L.jpg` |  Caminho: `materials\cs_assault\assault_skybox_building01.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
 |![](img/skyr21L.webp)|![](img/gen05.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\skyr21L.jpg` |  Caminho: `materials\buildings\gen05.vtf` |
 
