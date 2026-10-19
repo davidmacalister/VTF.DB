@@ -9,14 +9,12 @@
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 |  | Origem: `cstrike_pak_dir` |
-|![](img\P1011340.jpg)|![](img\offpaintingf.webp)|
 |![](img/P1011340.jpg)|![](img/offpaintingf.webp)|
 | Caminho: `Disk 1\photos\P1011340.jpg` |  Caminho: `materials\models\props\cs_office\offpaintingf.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 |  | Origem: `cstrike_pak_dir` |
-|![](img\P1010811.jpg)|![](img\offpaintingh.webp)|
 |![](img/P1010811.jpg)|![](img/offpaintingh.webp)|
 | Caminho: `Disk 1\photos\P1010811.jpg` |  Caminho: `materials\models\props\cs_office\offpaintingh.vtf` |
 
@@ -86,7 +84,6 @@
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 |  | Origem: `cstrike_pak_dir` |
-|![](img\pile02L.jpg)|![](img\washer_box.jpg)|
 |![](img/pile02L.jpg)|![](img/washer_box.jpg)|
 | Caminho: `Textures\Large\pile02L.jpg` |  Caminho: `materials\models\props\cs_assault\washer_box.vtf` |
 
@@ -96,34 +93,30 @@
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img\antn06L.webp)|![](img\antn03.webp)|
 |![](img/antn06L.webp)|![](img/antn03.webp)|
 | Caminho: `Textures\Large1600x1200Max\antn06L.tga` |  Caminho: `materials\building\antn03.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img\antn07L.webp)|![](img\antn04.webp)|
 |![](img/antn07L.webp)|![](img/antn04.webp)|
 | Caminho: `Textures\Large1600x1200Max\antn07L.tga` |  Caminho: `materials\building\antn04.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img\antn13L.webp)|![](img\antn02.webp)|
 |![](img/antn13L.webp)|![](img/antn02.webp)|
 | Caminho: `Textures\Large1600x1200Max\antn13L.tga` |  Caminho: `materials\building\antn02.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img\cncr24L.webp)|![](img\.webp)|
+|![](img/cncr24L.webp)|![](img/.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\cncr24L.jpg` |  Caminho: `materials\models\props_c17\.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img\clok01L.webp)|![](img\clock.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\clok01L.tga` |  Caminho: `materials\models\props\de_nuke\clock.vtf` |
 |![](img/antn15L.webp)|![](img/antn01.webp)|
 | Caminho: `Textures\Large1600x1200Max\antn15L.tga` |  Caminho: `materials\building\antn01.vtf` |
@@ -137,47 +130,42 @@
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img\park10L.webp)|![](img\assault_parking_decal01.webp)|
 |![](img/park10L.webp)|![](img/assault_parking_decal01.webp)|
 | Caminho: `Signs\Large800Max\park10L.tga` |  Caminho: `materials\cs_assault\assault_parking_decal01.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img\dngr03L.jpg)![](img\park13L.webp)![](img\dngr06L.jpg)|![](img\nuksign01.webp)|
 |![](img/dngr03L.jpg)![](img/park13L.webp)![](img/dngr06L.jpg)|![](img/nuksign01.webp)|
 | Caminho: `Signs\Large800Max\dngr03L.jpg`<br>`Signs\Large800Max\park13L.jpg`<br>`Signs\Large800Max\dngr06L.tga` |  Caminho: `materials\de_nuke\nuksign01.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img\cran01L.webp)|![](img\assault_skybox_building03.webp)|
 |![](img/cran01L.webp)|![](img/assault_skybox_building03.webp)|
 | Caminho: `Textures\Large1600x1200Max\cran01L.tga` |  Caminho: `materials\cs_assault\assault_skybox_building03.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img\comr17L.jpg)|![](img\assault_dumping_decal02.webp)|
 |![](img/comr17L.jpg)|![](img/assault_dumping_decal02.webp)|
 | Caminho: `Textures\Large1600x1200Max\comr17L.jpg` |  Caminho: `materials\cs_assault\assault_dumping_decal_02.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img\skyr34L.webp)|![](img\gen14.webp)|
+|![](img/skyr34L.webp)|![](img/gen14.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\skyr34L.jpg` |  Caminho: `materials\buildings\gen14.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img\skyr59L.webp)|![](img\gen23.webp)|
+|![](img/skyr59L.webp)|![](img/gen23.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\skyr59L.jpg` |  Caminho: `materials\buildings\gen23.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img\vent04L.webp)|![](img\nukventa.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\vent04L.jpg` |  Caminho: `materials\de_nuke\nukventa.vtf` |
 |![](img/clok01L.webp)|![](img/clock.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\clok01L.tga` |  Caminho: `materials\models\props\de_nuke\clock.vtf` |
