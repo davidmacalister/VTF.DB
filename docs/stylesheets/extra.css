@@ -1,0 +1,32 @@
+html body .md-typeset h1,
+html body .md-typeset h2,
+html body .md-typeset h3,
+html body .md-typeset h4,
+html body .md-typeset h5,
+html body .md-typeset h6 {
+    font-weight: 700 !important;
+}
+
+.md-typeset {
+    font-size: 0.65rem !important; /* Padrão do tema é ~0.8rem / 16px */
+}
+
+/* Opcional: ajusta o tamanho dos blocos de código proporcionalmente */
+.md-typeset code, 
+.md-typeset pre {
+    font-size: 0.65rem !important;
+}
+
+:root {
+    --md-typeset-a-font-weight: 700;
+    --md-primary-fg-color:        #EE0F0F;
+    --md-primary-fg-color--light: #EE0F0F;
+    --md-primary-fg-color--dark:  #313638;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.md-header__title {
+    font-family: 'Press Start 2P', monospace !important;
+    font-size: 0.85rem !important;
+}
