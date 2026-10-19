@@ -1,7 +1,7 @@
 ## Counter-Strike: Source
 
 <img src="MarlinStudios-SeamlessTextures3-UltimateInteriorSurfaces.jpg" width="70" style="vertical-align: middle;">&nbsp;&nbsp;
-<a href="https://archive.org/details/marlin-studios-seamless-textures-3-ultimate-interior-surfaces/carpets1.JPG" style="vertical-align: middle;">Marlin Studios - Seamless Textures 3 - Ultimate Interior Surfaces</a>
+<a href="https://archive.org/details/marlin-studios-seamless-textures-3-ultimate-interior-surfaces/carpets1.JPG" style="vertical-align: middle;">`Marlin Studios - Seamless Textures 3 - Ultimate Interior Surfaces`</a>
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
@@ -10,7 +10,7 @@
 | Caminho: `Textures\Large\pile02L.jpg` |  Caminho: `materials\models\props\cs_assault\washer_box.vtf` |
 
 <img src="MarlinStudios-SeamlessTextures5-DowntownSurfaces&Signs.jpg" width="70" style="vertical-align: middle;">&nbsp;&nbsp;
-<a href="https://archive.org/details/marlin-studios-seamless-textures-5-downtown-surfaces-signs" style="vertical-align: middle;">Marlin Studios - Seamless Textures 5 - Downtown Surfaces & Signs</a>
+<a href="https://archive.org/details/marlin-studios-seamless-textures-5-downtown-surfaces-signs" style="vertical-align: middle;">`Marlin Studios - Seamless Textures 5 - Downtown Surfaces & Signs`</a>
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
