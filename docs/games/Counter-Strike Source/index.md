@@ -25,6 +25,18 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 |![](img/pile02L.jpg)|![](img/washer_box.jpg)|
 | Caminho: `Textures\Large\pile02L.jpg` |  Caminho: `materials\models\props\cs_assault\washer_box.vtf` |
 
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+|  | Origem: `cstrike_pak_dir` |
+|![](img/grat07L.jpg)|![](img/prodplatea.webp)|
+| Caminho: `Textures\Large\grat07L.jpg` |  Caminho: `materials\decals\prodplatea.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+|  | Origem: `cstrike_pak_dir` |
+|![](img/grat04L.jpg)|![](img/prodventa.webp)|
+| Caminho: `Textures\Large\grat07L.jpg` |  Caminho: `materials\decals\prodventa.vtf` |
+
 ## Disco 5
 | Source Texture | Final Texture |
 | -------------- | ------------- |
