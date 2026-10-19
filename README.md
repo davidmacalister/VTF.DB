@@ -154,8 +154,44 @@
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
+|![](img/skyr11L.webp)|![](img/gen01.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr11L.jpg` |  Caminho: `materials\buildings\gen01.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/skyr12L.webp)|![](img/gen02.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr12L.jpg` |  Caminho: `materials\buildings\gen02.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/skyr13L.webp)|![](img/gen03.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr13L.jpg` |  Caminho: `materials\buildings\gen03.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/skyr15L.webp)|![](img/gen04.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr15L.jpg` |  Caminho: `materials\buildings\gen04.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/skyr21L.webp)|![](img/gen05.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr21L.jpg` |  Caminho: `materials\buildings\gen05.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
 |![](img/skyr34L.webp)|![](img/gen14.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\skyr34L.jpg` |  Caminho: `materials\buildings\gen14.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/skyr36L.webp)|![](img/gen15.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr36L.jpg` |  Caminho: `materials\buildings\gen15.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
