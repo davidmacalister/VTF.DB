@@ -15,4 +15,4 @@
 
 ## Counter-Strike: Source
 
-use o comando `mkdocs serve` no terminal para rodar o site localmente.
+use o comando `python -m pip install -r requirements.txt` dps `mkdocs serve` no terminal para rodar o site localmente.
