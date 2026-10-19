@@ -171,3 +171,21 @@ Contém texturas usadas em jogos como: Grand Theft Auto 3, Grand Theft Auto Vice
 | | Origem: `cstrike_pak_dir` |
 |![](img/skyr59L.webp)|![](img/gen23.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\skyr59L.jpg` |  Caminho: `materials\buildings\gen23.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/skyr41L.webp)|![](img/gen18.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr41L.jpg` |  Caminho: `materials\buildings\gen18.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/skyr42L.webp)|![](img/gen19.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr42L.jpg` |  Caminho: `materials\buildings\gen19.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/skyr46L.webp)|![](img/gen20.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr46L.jpg` |  Caminho: `materials\buildings\gen20.vtf` |
