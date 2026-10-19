@@ -1,4 +1,6 @@
-## [`Marlin Studios - Seamless Textures 2 - Rustic Exterior Surfaces`](https://archive.org/details/marlin-studios-seamless-textures-2-rustic-exterior-surfaces) <img align="right" width="128" height="128" src="img/capes/MarlinStudios-SeamlessTextures2-RusticExteriorSurfaces.jpg" alt="Xash3D FWGS icon" />
+<img src="img/capes/MarlinStudios-SeamlessTextures2-RusticExteriorSurfaces.jpg" width="150">
+
+### [`Marlin Studios - Seamless Textures 2 - Rustic Exterior Surfaces`](https://archive.org/details/marlin-studios-seamless-textures-2-rustic-exterior-surfaces)
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
