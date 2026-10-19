@@ -1,6 +1,5 @@
-<img src="img/capes/MarlinStudios-SeamlessTextures2-RusticExteriorSurfaces.jpg" width="150">
-
-### [`Marlin Studios - Seamless Textures 2 - Rustic Exterior Surfaces`](https://archive.org/details/marlin-studios-seamless-textures-2-rustic-exterior-surfaces)
+<img src="img/capes/MarlinStudios-SeamlessTextures2-RusticExteriorSurfaces.jpg" width="70" style="vertical-align: middle;">&nbsp;&nbsp;
+<a href="https://archive.org/details/marlin-studios-seamless-textures-2-rustic-exterior-surfaces" style="vertical-align: middle;">`Marlin Studios - Seamless Textures 2 - Rustic Exterior Surfaces`</a>
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
