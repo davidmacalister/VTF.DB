@@ -18,6 +18,18 @@
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
+|![](antn13L.webp)|![](antn02.webp)|
+| Caminho: `Textures\Large1600x1200Max\antn13L.tga` |  Caminho: `materials\building\antn02.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](antn06L.webp)|![](antn03.webp)|
+| Caminho: `Textures\Large1600x1200Max\antn06L.tga` |  Caminho: `materials\building\antn03.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
 |![](park10L.webp)|![](assault_parking_decal01.webp)|
 | Caminho: `Signs\Large800Max\park10L.tga` |  Caminho: `materials\cs_assault\assault_parking_decal01.vtf` |
 
