@@ -6,6 +6,18 @@
 <img src="SeamlessTextures7-GreatTexturesofEurope.jpg" width="70" style="vertical-align: middle;">&nbsp;&nbsp;
 <a href="https://archive.org/details/marlin-studios-seamless-textures-3-ultimate-interior-surfaces/carpets1.JPG" style="vertical-align: middle;">`Marlin Studios - Seamless Textures 7 - Great Textures of Europe`</a>
 
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+|  | Origem: `cstrike_pak_dir` |
+|![](P1011340.jpg)|![](offpaintingf.webp)|
+| Caminho: `Disk 1\photos\P1011340.jpg` |  Caminho: `materials\models\props\cs_office\offpaintingf.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+|  | Origem: `cstrike_pak_dir` |
+|![](P1010811.jpg)|![](offpaintingh.webp)|
+| Caminho: `Disk 1\photos\P1010811.jpg` |  Caminho: `materials\models\props\cs_office\offpaintingh.vtf` |
+
 <img src="MarlinStudios-SeamlessTextures2-RusticExteriorSurfaces.jpg" width="70" style="vertical-align: middle;">&nbsp;&nbsp;
 <a href="https://archive.org/details/marlin-studios-seamless-textures-3-ultimate-interior-surfaces/carpets1.JPG" style="vertical-align: middle;">`Marlin Studios - Seamless Textures 2 - Rustic Exterior Surfaces`</a>
 
