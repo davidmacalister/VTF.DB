@@ -3,6 +3,9 @@
 <img src="MarlinStudios-SeamlessTextures3-UltimateInteriorSurfaces.jpg" width="70" style="vertical-align: middle;">&nbsp;&nbsp;
 <a href="https://archive.org/details/marlin-studios-seamless-textures-3-ultimate-interior-surfaces/carpets1.JPG" style="vertical-align: middle;">`Marlin Studios - Seamless Textures 3 - Ultimate Interior Surfaces`</a>
 
+<img src="SeamlessTextures7-GreatTexturesofEurope.jpg" width="70" style="vertical-align: middle;">&nbsp;&nbsp;
+<a href="https://archive.org/details/marlin-studios-seamless-textures-3-ultimate-interior-surfaces/carpets1.JPG" style="vertical-align: middle;">`Marlin Studios - Seamless Textures 7 - Great Textures of Europe`</a>
+
 <img src="MarlinStudios-SeamlessTextures2-RusticExteriorSurfaces.jpg" width="70" style="vertical-align: middle;">&nbsp;&nbsp;
 <a href="https://archive.org/details/marlin-studios-seamless-textures-3-ultimate-interior-surfaces/carpets1.JPG" style="vertical-align: middle;">`Marlin Studios - Seamless Textures 2 - Rustic Exterior Surfaces`</a>
 
@@ -50,3 +53,10 @@
 | | Origem: `cstrike_pak_dir` |
 |![](comr17L.jpg)|![](assault_dumping_decal02.webp)|
 | Caminho: `Textures\Large1600x1200Max\comr17L.jpg` |  Caminho: `materials\cs_assault\assault_dumping_decal_02.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](clok01L.webp)|![](clock.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\clok01L.tga` |  Caminho: `materials\models\props\de_nuke\clock.vtf` |
+
