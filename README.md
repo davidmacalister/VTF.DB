@@ -129,14 +129,12 @@
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-| Caminho: `Signs\Textures\Large1600x1200Max\clok01L.tga` |  Caminho: `materials\models\props\de_nuke\clock.vtf` |
 |![](img/antn15L.webp)|![](img/antn01.webp)|
 | Caminho: `Textures\Large1600x1200Max\antn15L.tga` |  Caminho: `materials\building\antn01.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-| Caminho: `Signs\Textures\Large1600x1200Max\vent04L.jpg` |  Caminho: `materials\de_nuke\nukventa.vtf` |
 |![](img/clok01L.webp)|![](img/clock.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\clok01L.tga` |  Caminho: `materials\models\props\de_nuke\clock.vtf` |
 
