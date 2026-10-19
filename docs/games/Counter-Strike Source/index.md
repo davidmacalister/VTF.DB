@@ -74,12 +74,6 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 |![](img/clok01L.webp)|![](img/clock.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\clok01L.tga` |  Caminho: `materials\models\props\de_nuke\clock.vtf` |
 
-| Source Texture | Counter-Strike: Source |
-| -------------- | ---------------------- |
-| | Origem: `cstrike_pak_dir` |
-|![](img/cncr24L.webp)|![](img/.webp)|
-| Caminho: `Signs\Textures\Large1600x1200Max\cncr24L.jpg` |  Caminho: `materials\models\props_c17\.vtf` |
-
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
@@ -125,8 +119,8 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img/skyr23L.webp)|![](img/gen07.webp)|
-| Caminho: `Signs\Textures\Large1600x1200Max\skyr23L.jpg` |  Caminho: `materials\buildings\gen07.vtf` |
+|![](img/skyr23L.webp)|![](img/gen07.webp)![](img/assault_skybox_building02.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr23L.jpg` |  Caminho: `materials\buildings\gen07.vtf`<br>`cs_assault/assault_skybox_building02.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
@@ -182,12 +176,6 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 |![](img/skyr39L.webp)|![](img/gen17.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\skyr39L.jpg` |  Caminho: `materials\buildings\gen17.vtf` |
 
-| Source Texture | Counter-Strike: Source |
-| -------------- | ---------------------- |
-| | Origem: `cstrike_pak_dir` |
-|![](img/skyr59L.webp)|![](img/gen23.webp)|
-| Caminho: `Signs\Textures\Large1600x1200Max\skyr59L.jpg` |  Caminho: `materials\buildings\gen23.vtf` |
-
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
@@ -205,6 +193,42 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | | Origem: `cstrike_pak_dir` |
 |![](img/skyr46L.webp)|![](img/gen20.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\skyr46L.jpg` |  Caminho: `materials\buildings\gen20.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/skyr49L.webp)|![](img/gen21.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr49L.jpg` |  Caminho: `materials\buildings\gen21.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/skyr58L.webp)|![](img/gen22.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr58L.jpg` |  Caminho: `materials\buildings\gen22.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/skyr59L.webp)|![](img/gen23.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr59L.jpg` |  Caminho: `materials\buildings\gen23.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/skyr65L.webp)|![](img/gen24.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr65L.jpg` |  Caminho: `materials\buildings\gen24.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/skyr69L.webp)|![](img/gen25.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\skyr69L.jpg` |  Caminho: `materials\buildings\gen25.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/vent04L.webp)|![](img/nukventa.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\vent04L.jpg` |  Caminho: `materials\de_nuke\nukventa.vtf` |
 
 ## Disco 7
 | Source Texture | Final Texture |
