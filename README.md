@@ -40,7 +40,7 @@
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](antn15L.webp)|![](antn01.webp)|
-| Caminho: `Textures\Large1600x1200Max\antn15L.tga` |  Caminho: `materials\building\antn0.vtf` |
+| Caminho: `Textures\Large1600x1200Max\antn15L.tga` |  Caminho: `materials\building\antn01.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
