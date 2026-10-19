@@ -3,6 +3,9 @@
 <img src="MarlinStudios-SeamlessTextures3-UltimateInteriorSurfaces.jpg" width="70" style="vertical-align: middle;">&nbsp;&nbsp;
 <a href="https://archive.org/details/marlin-studios-seamless-textures-3-ultimate-interior-surfaces/carpets1.JPG" style="vertical-align: middle;">`Marlin Studios - Seamless Textures 3 - Ultimate Interior Surfaces`</a>
 
+<img src="MarlinStudios-SeamlessTextures2-RusticExteriorSurfaces.jpg" width="70" style="vertical-align: middle;">&nbsp;&nbsp;
+<a href="https://archive.org/details/marlin-studios-seamless-textures-3-ultimate-interior-surfaces/carpets1.JPG" style="vertical-align: middle;">`Marlin Studios - Seamless Textures 2 - Rustic Exterior Surfaces`</a>
+
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 |  | Origem: `cstrike_pak_dir` |
