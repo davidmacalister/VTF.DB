@@ -101,6 +101,12 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
+|![](img/grat21L.webp)|![](img/nukfloorc_detaile.webp)|
+| Caminho: `Textures\Large1600x1200Max\grat21L.jpg` |  Caminho: `materials\de_nuke\nukfloorc_detaile.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
 |![](img/skyr11L.webp)|![](img/gen01.webp)|
 | Caminho: `Textures\Large1600x1200Max\skyr11L.jpg` |  Caminho: `materials\buildings\gen01.vtf` |
 
