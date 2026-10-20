@@ -245,6 +245,24 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
+|![](img/wal102L.jpg)|![](img/wndarch.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\wal102L.jpg` |  Caminho: `materials\models\de_cbble\wndarch.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/wal107L.jpg)|![](img/wnddouble.webp)![](img/wndsingle.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\wal107L.jpg` |  Caminho: `materials\models\de_cbble\wnddouble.vtf`<br>`materials\models\de_cbble\wndsingle.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| Tá faltando a porta e a grade | Origem: `cstrike_pak_dir` |
+|![](img/wal105L.jpg)|![](img/doorarch.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\wal105L.jpg` |  Caminho: `materials\models\de_cbble\doorarch.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
 |![](img/vent04L.webp)|![](img/nukventa.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\vent04L.jpg` |  Caminho: `materials\de_nuke\nukventa.vtf` |
 
