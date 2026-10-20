@@ -100,6 +100,24 @@
 | Source Texture | Final Texture |
 | -------------- | ---------------------- |
 | | Origem: `hl2_textures_dir` |
+|![](img/surf015L.webp)![](img/wndw040L.webp)|![](img/plasterwall007a.webp)![](img/plasterwall007b.webp)|
+| Caminho: `Textures\Large\surf015L.jpg`<br>`Textures\Large\wndw040L.jpg` |  Caminho: `materials\plaster\plasterwall007a.vtf`<br>`materials\plaster\plasterwall007b.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `hl2_textures_dir` |
+|![](img/surf016L.webp)|![](img/plasterwall050a.webp)|
+| Caminho: `Textures\Large\surf016L.jpg` |  Caminho: `materials\plaster\plasterwall050a.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `hl2_textures_dir` |
+|![](img/surf017L.webp)![](img/wndw121L.webp)|![](img/plasterwall050a.webp)|
+| Caminho: `Textures\Large\surf017L.jpg`<br>`Textures\Large\wndw121L.jpg` |  Caminho: `materials\stone\stonewall038b.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `hl2_textures_dir` |
 |![](img/surf031L.webp)|![](img/decalmetalgrate014a.webp)|
 | Caminho: `Textures\Large\surf031L.jpg` |  Caminho: `materials\decals\decalmetalgrate019a.vtf` |
 
@@ -118,6 +136,18 @@
 | Source Texture | Final Texture |
 | -------------- | ---------------------- |
 | | Origem: `hl2_textures_dir` |
+|![](img/surf047L.webp)|![](img/stonewall013a.webp)|
+| Caminho: `Textures\Large\surf047L.jpg` |  Caminho: `materials\stone\stonewall013a.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `hl2_textures_dir` |
+|![](img/surf055L.webp)|![](img/stonewall020a.webp)|
+| Caminho: `Textures\Large\surf055L.jpg` |  Caminho: `materials\stone\stonewall020a.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `hl2_textures_dir` |
 |![](img/surf066L.webp)|![](img/decalmetalgrate014a.webp)|
 | Caminho: `Textures\Large\surf066L.jpg` |  Caminho: `materials\decals\decalmetalgrate014a.vtf` |
 
@@ -130,8 +160,20 @@
 | Source Texture | Final Texture |
 | -------------- | ---------------------- |
 | | Origem: `hl2_textures_dir` |
+|![](img/wndw038L.webp)|![](img/stonewall034b.webp)|
+| Caminho: `Textures\Large\wndw038L.jpg` |  Caminho: `materials\stone\stonewall034b.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `hl2_textures_dir` |
 |![](img/wndw116L.webp)|![](img/metalfence007a.webp)|
 | Caminho: `Textures\Large\wndw116L.jpg` |  Caminho: `materials\metal\metalfence007a.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `hl2_textures_dir` |
+|![](img/wndw217L.webp)|![](img/stonewall021h.webp)|
+| Caminho: `Textures\Large\wndw217L.jpg` |  Caminho: `materials\stone\stonewall021h.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ---------------------- |
