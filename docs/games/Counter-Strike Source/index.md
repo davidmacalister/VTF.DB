@@ -263,8 +263,8 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img/wal107L.jpg)|![](img/wnddouble.webp)![](img/wndsingle.webp)|
-| Caminho: `Textures\Large1600x1200Max\wal107L.jpg` |  Caminho: `materials\models\de_cbble\wnddouble.vtf`<br>`materials\models\de_cbble\wndsingle.vtf` |
+|![](img/wal107L.jpg)|![](img/wnddouble.webp)![](img/wndsingle.webp)![](img/tiddecwndw01.webp)|
+| Caminho: `Textures\Large1600x1200Max\wal107L.jpg` |  Caminho: `materials\models\de_cbble\wnddouble.vtf`<br>`materials\models\de_cbble\wndsingle.vtf`<br>`materials\de_tides\tiddecwndw01.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
