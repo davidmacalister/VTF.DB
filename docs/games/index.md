@@ -2,8 +2,5 @@
 title: "Jogos"
 ---
 
-## Jogos
-|Empresa|Biblioteca|
-|---|---|---|
-|[Counter-Strike: Source](Counter-Strike Source/index.md)|
-|[Half-Life 2](Half-Life 2/index.md)|
+- [Counter-Strike: Source](Counter-Strike Source/index.md)|
+- [Half-Life 2](Half-Life 2/index.md)|

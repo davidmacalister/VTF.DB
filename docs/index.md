@@ -2,7 +2,7 @@
 title: "Início"
 ---
 
-# Bem-vindas a Valve Assets Wiki
+# Boas-vindas à Valve Assets Wiki
 
 "QUE DIABO É ISSO JV?!"
 
