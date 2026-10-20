@@ -257,14 +257,20 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | Tá faltando a porta e a grade | Origem: `cstrike_pak_dir` |
-|![](img/wal105L.jpg)|![](img/doorarch.webp)|
-| Caminho: `Signs\Textures\Large1600x1200Max\wal105L.jpg` |  Caminho: `materials\models\de_cbble\doorarch.vtf` |
+|![](img/wal105L.jpg) Disco 7![](img/entr123L.jpg)|![](img/doorarch.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\wal105L.jpg`<br>`Textures\Large` |  Caminho: `materials\models\de_cbble\doorarch.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/vent04L.webp)|![](img/nukventa.webp)|
 | Caminho: `Signs\Textures\Large1600x1200Max\vent04L.jpg` |  Caminho: `materials\de_nuke\nukventa.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/wal156L.jpg)|![](img/walltrim01.webp)|
+| Caminho: `Signs\Textures\Large1600x1200Max\wal156L.jpg` |  Caminho: `materials\de_piranese\walltrim01.vtf` |
 
 ## Disco 7
 | Source Texture | Final Texture |
@@ -338,3 +344,21 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 |  | Origem: `cstrike_pak_dir` |
 |![](img/P1010662.jpg)|![](img/offpaintingb.webp)|
 | Caminho: `Disk 1\photos\P1010662.jpg` |  Caminho: `materials\models\props\cs_office\offpaintingb.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/bldg232L.jpg)|![](img/tides_window_1.webp)|
+| Caminho: `Textures\Large\bldg232L.jpg` |  Caminho: `materials\de_tides\tides_window_1.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/entr002L.jpg)|![](img/tides_wooden_arc_door_2.webp)|
+| Caminho: `Textures\Large\entr002L.jpg` |  Caminho: `materials\de_tides\tides_wooden_arc_door_2.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/entr004L.jpg)|![](img/tides_wooden_arc_door.webp)|
+| Caminho: `Textures\Large\entr004L.jpg` |  Caminho: `materials\de_tides\tides_wooden_arc_door.vtf` |
