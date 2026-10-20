@@ -258,19 +258,19 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/wal102L.jpg)|![](img/wndarch.webp)|
-| Caminho: `Signs\Textures\Large1600x1200Max\wal102L.jpg` |  Caminho: `materials\models\de_cbble\wndarch.vtf` |
+| Caminho: `Textures\Large1600x1200Max\wal102L.jpg` |  Caminho: `materials\models\de_cbble\wndarch.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/wal107L.jpg)|![](img/wnddouble.webp)![](img/wndsingle.webp)|
-| Caminho: `Signs\Textures\Large1600x1200Max\wal107L.jpg` |  Caminho: `materials\models\de_cbble\wnddouble.vtf`<br>`materials\models\de_cbble\wndsingle.vtf` |
+| Caminho: `Textures\Large1600x1200Max\wal107L.jpg` |  Caminho: `materials\models\de_cbble\wnddouble.vtf`<br>`materials\models\de_cbble\wndsingle.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | Tá faltando a porta e a grade | Origem: `cstrike_pak_dir` |
 |![](img/wal105L.jpg) Disco 7![](img/entr123L.jpg)|![](img/doorarch.webp)|
-| Caminho: `Signs\Textures\Large1600x1200Max\wal105L.jpg`<br>`Textures\Large` |  Caminho: `materials\models\de_cbble\doorarch.vtf` |
+| Caminho: `Textures\Large1600x1200Max\wal105L.jpg`<br>`Textures\Large` |  Caminho: `materials\models\de_cbble\doorarch.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
@@ -288,7 +288,7 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/wal156L.jpg)|![](img/walltrim01.webp)|
-| Caminho: `Signs\Textures\Large1600x1200Max\wal156L.jpg` |  Caminho: `materials\de_piranese\walltrim01.vtf` |
+| Caminho: `Textures\Large1600x1200Max\wal156L.jpg` |  Caminho: `materials\de_piranese\walltrim01.vtf` |
 
 ## Disco 7
 | Source Texture | Final Texture |
