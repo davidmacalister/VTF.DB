@@ -372,6 +372,36 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Final Texture |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
+|![](img/bldg024L.webp)![](img/bldg196L.webp)|![](img/buildingset022b.webp)|
+|`Textures\Large\bldg024L.jpg`<br>`Textures\Large\bldg196L.jpg` | `materials\composite\buildingset022b.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/bldg066L.jpg)|![](img/bldb.webp)|
+|`Textures\Large\bldg066L.jpg` | `materials\cs_havana\bldb.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/bldg067L.webp)|![](img/building05.webp)|
+|`Textures\Large\bldg067L.jpg` | `materials\cs_havana\building05.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/bldg072L.webp)|![](img/building03.webp)|
+|`Textures\Large\bldg072L.jpg` | `materials\cs_havana\building03.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/bldg089L.jpg)![](img/bldg091L.jpg)|![](img/blde.webp)|
+|`Textures\Large\bldg089L.jpg`<br>`Textures\Large\bldg091L.jpg` | `materials\cs_havana\blde.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
 |![](img/bldg232L.jpg)|![](img/tides_window_1.webp)|
 |`Textures\Large\bldg232L.jpg` | `materials\de_tides\tides_window_1.vtf` |
 
@@ -387,17 +417,17 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 |![](img/entr004L.jpg)|![](img/tides_wooden_arc_door.webp)|
 |`Textures\Large\entr004L.jpg` | `materials\de_tides\tides_wooden_arc_door.vtf` |
 
-| Source Texture | Final Texture |
+| Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img/bldg066L.jpg)|![](img/bldb.webp)|
-|`Textures\Large\bldg066L.jpg` | `materials\cs_havana\bldb.vtf` |
+|![](img/wndw126L.jpg)![](img/entr141L.jpg)![](img/wndw214L.jpg)|![](img/window_4x4_square_flat.webp)|
+|`Textures\Large\wndw126L.jpg`| `materials\models\de_dust\windows\window_4x4_square_flat.vtf`|
 
-| Source Texture | Final Texture |
+| Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img/bldg089L.jpg)![](img/bldg091L.jpg)|![](img/blde.webp)|
-|`Textures\Large\bldg089L.jpg`<br>`Textures\Large\bldg091L.jpg` | `materials\cs_havana\blde.vtf` |
+|![](img/wndw157L.jpg)|![](img/window_4x4_square_flat.webp)|
+|`Textures\Large\wndw157L.jpg`| `materials\models\de_dust\windows\window_4x4_square_flat.vtf`|
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
@@ -408,17 +438,6 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img/wndw157L.jpg)|![](img/window_4x4_square_flat.webp)|
-|`Textures\Large\wndw157L.jpg`| `materials\models\de_dust\windows\window_4x4_square_flat.vtf`|
-
-| Source Texture | Counter-Strike: Source |
-| -------------- | ---------------------- |
-| | Origem: `cstrike_pak_dir` |
 |![](img/wndw227L.jpg)![](img/wndw021L.jpg)![](img/wndw118L.jpg)|![](img/tides_brick_wall_l.jpg)|
 |`Textures\Large\wndw227L.jpg`<br>`Textures\Large\wndw021L.jpg`<br>`Textures\Large\wndw118L.jpg`| `materials\de_tides\tides_brick_wall_l.vtf`|
 
-| Source Texture | Counter-Strike: Source |
-| -------------- | ---------------------- |
-| | Origem: `cstrike_pak_dir` |
-|![](img/wndw126L.jpg)![](img/entr141L.jpg)![](img/wndw214L.jpg)|![](img/window_4x4_square_flat.webp)|
-|`Textures\Large\wndw126L.jpg`| `materials\models\de_dust\windows\window_4x4_square_flat.vtf`|
