@@ -398,3 +398,27 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | | Origem: `cstrike_pak_dir` |
 |![](img/bldg089L.jpg)![](img/bldg091L.jpg)|![](img/blde.webp)|
 | Caminho: `Textures\Large\bldg089L.jpg`<br>`Textures\Large\bldg091L.jpg` |  Caminho: `materials\cs_havana\blde.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| parece faltar a parede | Origem: `cstrike_pak_dir` |
+|![](img/wndw219L.jpg)![](img/wndw209L.jpg)|![](img/wnda.webp)|
+| Caminho: `Textures\Large\wndw219L.jpg`<br>`Textures\Large\wndw209L.jpg` |  Caminho: `materials\models\cs_italy\wndg.vtf`|
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/wndw157L.jpg)|![](img/window_4x4_square_flat.webp)|
+| Caminho: `Textures\Large\wndw157L.jpg`|  Caminho: `materials\models\de_dust\windows\window_4x4_square_flat.vtf`|
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/wndw227L.jpg)![](img/wndw118L.jpg)![](img/wndw021L.jpg)|![](img/window_4x4_square_flat.webp)|
+| Caminho: `Textures\Large\wndw227L.jpg`|  Caminho: `materials\models\de_dust\windows\window_4x4_square_flat.vtf`|
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/wndw126L.jpg)![](img/entr141L.jpg)![](img/wndw214L.jpg)|![](img/window_4x4_square_flat.webp)|
+| Caminho: `Textures\Large\wndw126L.jpg`|  Caminho: `materials\models\de_dust\windows\window_4x4_square_flat.vtf`|
