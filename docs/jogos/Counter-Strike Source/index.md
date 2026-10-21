@@ -439,7 +439,7 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | -------------- | ---------------------- |
 | parece faltar a parede | Origem: `cstrike_pak_dir` |
 |![](img/wndw219L.jpg)![](img/wndw209L.jpg)|![](img/wnda.webp)|
-|`Textures\Large\wndw219L.jpg`<br>`Textures\Large\wndw209L.jpg` | `materials\models\cs_italy\wndg.vtf`|
+|`Textures\Large\wndw219L.jpg`<br>`Textures\Large\wndw209L.jpg` | `materials\models\cs_italy\wnda.vtf`|
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
@@ -450,5 +450,5 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img/bldg055L.jpg)|![](img/bldc.webp)![](img/bldf.webp)|
+|![](img/bldg055L.jpg)![](img/bldg003L.jpg)|![](img/bldc.webp)![](img/bldf.webp)|
 |`Textures\Large\bldg055L.jpg`| `materials\cs_havana\bldc.vtf`|
