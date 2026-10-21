@@ -1,6 +1,9 @@
 import argparse
+import ctypes
 import hashlib
 import sys
+from ctypes import wintypes
+from io import BytesIO
 from pathlib import Path
 
 import numpy as np
@@ -299,6 +302,142 @@ def phash_search(query_path, paths, top):
     return results[:top]
 
 
+def copy_image_to_clipboard(path):
+    image = load_image(path)
+
+    if image is None:
+        raise RuntimeError(
+            f"Não foi possível abrir a imagem para copiar: {path}"
+        )
+
+    with BytesIO() as output:
+        image.save(output, format="BMP")
+        dib = output.getvalue()[14:]
+
+    user32 = ctypes.WinDLL("user32", use_last_error=True)
+    kernel32 = ctypes.WinDLL("kernel32", use_last_error=True)
+
+    user32.OpenClipboard.argtypes = [wintypes.HWND]
+    user32.OpenClipboard.restype = wintypes.BOOL
+    user32.EmptyClipboard.restype = wintypes.BOOL
+    user32.SetClipboardData.argtypes = [wintypes.UINT, wintypes.HANDLE]
+    user32.SetClipboardData.restype = wintypes.HANDLE
+    user32.CloseClipboard.restype = wintypes.BOOL
+    kernel32.GlobalAlloc.argtypes = [wintypes.UINT, ctypes.c_size_t]
+    kernel32.GlobalAlloc.restype = wintypes.HGLOBAL
+    kernel32.GlobalLock.argtypes = [wintypes.HGLOBAL]
+    kernel32.GlobalLock.restype = ctypes.c_void_p
+    kernel32.GlobalUnlock.argtypes = [wintypes.HGLOBAL]
+    kernel32.GlobalUnlock.restype = wintypes.BOOL
+    kernel32.GlobalFree.argtypes = [wintypes.HGLOBAL]
+    kernel32.GlobalFree.restype = wintypes.HGLOBAL
+
+    memory = kernel32.GlobalAlloc(0x0002, len(dib))
+    if not memory:
+        raise ctypes.WinError(ctypes.get_last_error())
+
+    try:
+        pointer = kernel32.GlobalLock(memory)
+        if not pointer:
+            raise ctypes.WinError(ctypes.get_last_error())
+
+        try:
+            ctypes.memmove(pointer, dib, len(dib))
+        finally:
+            kernel32.GlobalUnlock(memory)
+
+        if not user32.OpenClipboard(None):
+            raise ctypes.WinError(ctypes.get_last_error())
+
+        try:
+            if not user32.EmptyClipboard():
+                raise ctypes.WinError(ctypes.get_last_error())
+
+            if not user32.SetClipboardData(8, memory):
+                raise ctypes.WinError(ctypes.get_last_error())
+
+            memory = None
+        finally:
+            user32.CloseClipboard()
+    finally:
+        if memory:
+            kernel32.GlobalFree(memory)
+
+
+def open_result_images(results, algorithm):
+    if not results:
+        return False
+
+    if sys.platform != "win32":
+        raise RuntimeError(
+            "A abertura sequencial das imagens está disponível apenas no Windows."
+        )
+
+    import msvcrt
+    import tkinter as tk
+    from PIL import ImageTk
+
+    for number, (path, _) in enumerate(results, 1):
+        image = load_image(path)
+
+        if image is None:
+            raise RuntimeError(
+                f"Não foi possível abrir a imagem: {path}"
+            )
+
+        root = tk.Tk()
+        root.title(f"{algorithm} Top {number}/{len(results)} — {path}")
+        max_width = int(root.winfo_screenwidth() * 0.9)
+        max_height = int(root.winfo_screenheight() * 0.8)
+        image.thumbnail(
+            (max_width, max_height),
+            Image.Resampling.LANCZOS
+        )
+        photo = ImageTk.PhotoImage(image)
+        image_label = tk.Label(root, image=photo)
+        image_label.pack()
+        status = tk.StringVar(
+            value="Feche esta janela para avançar; Ctrl+D no terminal copia e encerra."
+        )
+        tk.Label(root, textvariable=status).pack()
+        root.image = photo
+        stop_search = False
+
+        print(
+            f"\nAbrindo {algorithm} Top {number}/{len(results)}: {path}\n"
+            "Feche a janela para avançar. Pressione Ctrl+D no terminal "
+            "para copiar esta imagem e encerrar toda a sequência."
+        )
+
+        def check_terminal():
+            nonlocal stop_search
+
+            while msvcrt.kbhit():
+                if msvcrt.getwch() == "\x04":
+                    try:
+                        copy_image_to_clipboard(path)
+                    except (OSError, RuntimeError) as error:
+                        message = f"[ERRO] Não foi possível copiar a imagem: {error}"
+                        print(message)
+                        status.set(message)
+                        break
+
+                    print("[OK] Imagem copiada. Encerrando a sequência.")
+                    stop_search = True
+                    root.destroy()
+                    return
+
+            root.after(100, check_terminal)
+
+        root.after(100, check_terminal)
+        root.mainloop()
+
+        if stop_search:
+            return True
+
+    return False
+
+
 def main():
     parser = argparse.ArgumentParser()
 
@@ -437,6 +576,9 @@ def main():
             f"{path}"
         )
 
+    if open_result_images(results, "CLIP"):
+        return
+
     if args.phash:
         print()
         print("=" * 80)
@@ -460,6 +602,8 @@ def main():
                 f"distância={distance:2d}  "
                 f"{path}"
             )
+
+        open_result_images(results_phash, "pHash")
 
 
 if __name__ == "__main__":
