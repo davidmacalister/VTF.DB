@@ -441,3 +441,8 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 |![](img/wndw227L.jpg)![](img/wndw021L.jpg)![](img/wndw118L.jpg)|![](img/tides_brick_wall_l.jpg)|
 |`Textures\Large\wndw227L.jpg`<br>`Textures\Large\wndw021L.jpg`<br>`Textures\Large\wndw118L.jpg`| `materials\de_tides\tides_brick_wall_l.vtf`|
 
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/bldg055L.jpg)|![](img/bldc.webp)![](img/bldf.webp)|
+|`Textures\Large\wndw227L.jpg`<br>`Textures\Large\wndw021L.jpg`<br>`Textures\Large\bldg055L.jpg`| `materials\cs_havana\bldc.vtf`|
