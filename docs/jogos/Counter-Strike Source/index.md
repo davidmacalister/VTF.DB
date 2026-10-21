@@ -436,8 +436,32 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Final Texture |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
+|![](img/entr057L.webp)|![](img/doora.webp)|
+|`Textures\Large\entr057L.jpg` | `materials\cs_italy\doora.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/entr123L.jpg)|![](img/wooddoor01.webp)|
+|`Textures\Large\entr123L.jpg` | `materials\de_piranese\wooddoor01.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/entr130L.webp)|![](img/door010.webp)|
+|`Textures\Large\entr130L.jpg` | `materials\de_cbble\door010.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
 |![](img/entr141L.jpg)|![](img/extdoor01.webp)|
-|`Textures\Large\entr036L.jpg` | `materials\de_chateau\extdoor01.vtf` |
+|`Textures\Large\entr141L.jpg` | `materials\de_chateau\extdoor01.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/wndw096L.webp)![](img/wndw108L.webp)|![](img/wndx2.webp)![](img/wndx1.webp)![](img/wndc.webp)|
+|`Textures\Large\wndw096L.jpg`<br>`Textures\Large\wndw108L.jpg`| `materials\cs_havana\wndx2.vtf`<br>`materials\cs_havana\wndx1.vtf`|
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
