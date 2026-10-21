@@ -123,7 +123,7 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img/grat21L.webp)|![](img/nukfloorc_detaile.webp)|
+|![](img/grat21L.webp)|![](img/nukfloorc_detaile.jpg)|
 |`Textures\Large1600x1200Max\grat21L.jpg` | `materials\de_nuke\nukfloorc_detaile.vtf` |
 
 | Source Texture | Final Texture |
@@ -291,7 +291,7 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Final Texture |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img/wal107L.jpg)|![](img/wnddouble.webp)![](img/wndsingle.webp)![](img/tiddecwndw01.webp)|
+|![](img/wal107L.jpg)|![](img/wnddouble.webp)![](img/wndsingle.webp)![](img/tiddecwndw01.jpg)|
 |`Textures\Large1600x1200Max\wal107L.jpg` | `materials\models\de_cbble\wnddouble.vtf`<br>`materials\models\de_cbble\wndsingle.vtf`<br>`materials\de_tides\tiddecwndw01.vtf` |
 
 | Source Texture | Final Texture |

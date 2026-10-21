@@ -82,3 +82,9 @@ by Geoff Holman
 |  | Origem: `cstrike_pak_dir` |
 |![](../img/P1010662.jpg)|![](../img/offpaintingb.webp)|
 | Caminho: `Disk 1\photos\P1010662.jpg` |  Caminho: `materials\models\props\cs_office\offpaintingb.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+|  | Origem: `cstrike_pak_dir` |
+|![](../img/entr077L.jpg)|![](../img/tides_storagedoor.webp)|
+| Caminho: `Disk 1\photos\entr077L.jpg` |  Caminho: `materials\de_tides\tides_storagedoor.vtf` |
