@@ -19,11 +19,12 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 |Marlin Studios|[Seamless Textures 7 - Great Textures of Europe](Seamless Textures 7/index.md)|Sim|
 
 ## Disco 2
+
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 |  | Origem: `cstrike_pak_dir` |
-|![](img/pile02L.jpg)|![](img/washer_box.jpg)|
-|`Textures\Large\pile02L.jpg` | `materials\models\props\cs_assault\washer_box.vtf` |
+|![](img/grat04L.jpg)|![](img/prodventa.webp)|
+|`Textures\Large\grat07L.jpg` | `materials\decals\prodventa.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
@@ -34,10 +35,12 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 |  | Origem: `cstrike_pak_dir` |
-|![](img/grat04L.jpg)|![](img/prodventa.webp)|
-|`Textures\Large\grat07L.jpg` | `materials\decals\prodventa.vtf` |
+|![](img/pile02L.jpg)|![](img/washer_box.jpg)|
+|`Textures\Large\pile02L.jpg` | `materials\models\props\cs_assault\washer_box.vtf` |
+
 
 ## Disco 5
+
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
@@ -97,6 +100,12 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | | Origem: `cstrike_pak_dir` |
 |![](img/cran01L.webp)|![](img/assault_skybox_building03.webp)|
 |`Textures\Large1600x1200Max\cran01L.tga` | `materials\cs_assault\assault_skybox_building03.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/door44L.webp)|![](img/assault_door1.webp)|
+|`Textures\Large1600x1200Max\door44L.jpg` | `materials\cs_assault\assault_door1.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
@@ -297,6 +306,7 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 |`Textures\Large1600x1200Max\wal156L.jpg` | `materials\de_piranese\walltrim01.vtf` |
 
 ## Disco 7
+
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 |  | Origem: `cstrike_pak_dir` |

@@ -3,12 +3,44 @@
 ![Bannerhl2](library_hero_2x.jpg)
 
 ## Disco 1
+
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 |  | Origem: `hl2_textures_dir` |
 |![](img/windo06.jpg)|![](img/glasswindow041a.webp)![](img/glasswindow041b.webp)![](img/glasswindow048a.webp)|
 | Caminho: `Textures\window06.jpg` |  Caminho: `materials\glass\glasswindow041a.vtf`<br>`materials\glass\glasswindow041b.vtf`<br>`materials\glass\glasswindow048a.vtf` |
 
+## Disco 2
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `hl2_textures_dir` |
+|![](img/grat05L.webp)|![](img/decalmetalgrate015a.webp)|
+| Caminho: `Textures\Large\grat05L.jpg` |  Caminho: `materials\decals\decalmetalgrate015a.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `hl2_textures_dir` |
+|![](img/grat08L.webp)|![](img/decalmetalgrate024a.webp)|
+| Caminho: `Textures\Large\grat08L.jpg` |  Caminho: `materials\decals\decalmetalgrate024a.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `hl2_textures_dir` |
+|![](img/rust41L.webp)|![](img/metalwall043a.webp)|
+| Caminho: `Textures\Large\rust41L.jpg` |  Caminho: `materials\metal\metalwall043a.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `hl2_textures_dir` |
+|![](img/metl17L.webp)|![](img/\metalduct005a.webp)|
+| Caminho: `Textures\Large\metl17L.jpg` |  Caminho: `materials\props\\metalduct005a.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `hl2_textures_dir` |
+|![](img/wood14L.webp)|![](img/woodwall008a.webp)|
+| Caminho: `Textures\Large\wood14L.jpg` |  Caminho: `materials\wood\woodwall008a.vtf` |
 
 ## Disco 7
 
