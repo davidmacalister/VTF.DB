@@ -417,11 +417,17 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 |![](img/entr004L.jpg)|![](img/tides_wooden_arc_door.webp)|
 |`Textures\Large\entr004L.jpg` | `materials\de_tides\tides_wooden_arc_door.vtf` |
 
-| Source Texture | Counter-Strike: Source |
+| Source Texture | Final Texture |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img/wndw126L.jpg)![](img/entr141L.jpg)![](img/wndw214L.jpg)|![](img/window_4x4_square_flat.webp)|
-|`Textures\Large\wndw126L.jpg`| `materials\models\de_dust\windows\window_4x4_square_flat.vtf`|
+|![](img/entr036L.webp)|![](img/door011.webp)|
+|`Textures\Large\entr036L.jpg` | `materials\de_dust\door011.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/entr141L.jpg)|![](img/extdoor01.webp)|
+|`Textures\Large\entr036L.jpg` | `materials\de_chateau\extdoor01.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
