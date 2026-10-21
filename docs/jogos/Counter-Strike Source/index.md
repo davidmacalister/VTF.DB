@@ -445,4 +445,4 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/bldg055L.jpg)|![](img/bldc.webp)![](img/bldf.webp)|
-|`Textures\Large\wndw227L.jpg`<br>`Textures\Large\wndw021L.jpg`<br>`Textures\Large\bldg055L.jpg`| `materials\cs_havana\bldc.vtf`|
+|`Textures\Large\bldg055L.jpg`| `materials\cs_havana\bldc.vtf`|
