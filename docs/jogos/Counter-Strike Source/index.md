@@ -39,6 +39,13 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 |`Textures\Large\pile02L.jpg` | `materials\models\props\cs_assault\washer_box.vtf` |
 
 
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+|  | Origem: `cstrike_pak_dir` |
+|![](img/wood02L.jpg)|![](img/woodm.webp)|
+|`Textures\Large\wood02L.jpg` | `materials\cs_havana\woodm.vtf` |
+
+
 ## Disco 5
 
 | Source Texture | Final Texture |
@@ -462,3 +469,9 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | | Origem: `cstrike_pak_dir` |
 |![](img/bldg055L.jpg)![](img/bldg003L.jpg)|![](img/bldc.webp)![](img/bldf.webp)|
 |`Textures\Large\bldg055L.jpg`| `materials\cs_havana\bldc.vtf`|
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/wndw127L.jpg)|![](img/wndf.webp)|
+|`Textures\Large\bldg055L.jpg`| `materials\cs_havana\wndf.vtf`|
