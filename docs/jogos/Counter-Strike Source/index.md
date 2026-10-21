@@ -29,6 +29,12 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 |  | Origem: `cstrike_pak_dir` |
+|![](img/metl17L.webp)|![](img/prodventa_(2).webp)|
+|`Textures\Large\metl17L.jpg` | `materials\metal\prodventa.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+|  | Origem: `cstrike_pak_dir` |
 |![](img/grat07L.jpg)|![](img/prodplatea.webp)|
 |`Textures\Large\grat07L.jpg` | `materials\decals\prodplatea.vtf` |
 
@@ -469,6 +475,12 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | | Origem: `cstrike_pak_dir` |
 |![](img/wndw096L.webp)![](img/wndw108L.webp)|![](img/wndx2.webp)![](img/wndx1.webp)![](img/wndc.webp)|
 |`Textures\Large\wndw096L.jpg`<br>`Textures\Large\wndw108L.jpg`| `materials\cs_havana\wndx2.vtf`<br>`materials\cs_havana\wndx1.vtf`|
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](img/wndw126L.jpg)|![](img/pwal8.webp)|
+|`Textures\Large\wndw126L.jpg`| `materials\cs_italy\pwal8.vtf`|
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
