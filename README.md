@@ -6,8 +6,21 @@ use o comando `python -m pip install -r requirements.txt` dps `mkdocs serve` no 
 **Progress:**
 - materials\models\de_cbble `100%`
 
-### materials\cs_havana
+### materials\cs_italy
+- cuwndg.vtf ✅
+- pwal8.vtf ✅
 
+### materials\cs_havana
+- gen02.vtf ✅
+- gen04.vtf ✅
+- gen05.vtf ✅
+- gen06.vtf ✅
+- gen10.vtf ✅
+- gen11.vtf ✅
+- gen13.vtf ✅
+- gen14.vtf ✅
+- building05.vtf ✅ 
+- building03.vtf ✅
 - woodm.vtf ✅
 - woodf01.vtf
 - wndx2.vtf ✅
@@ -17,6 +30,9 @@ use o comando `python -m pip install -r requirements.txt` dps `mkdocs serve` no 
 - bldb.vtf ✅
 - bldf.vtf ✅
 - blde.vtf ✅
+- offpaintingn.vtf ✅
+- offpaintingc.vtf ✅
+- offpaintingm.vtf ✅
 
 ### Dust
 - pi_bigbrk.vtf
@@ -50,7 +66,11 @@ use o comando `python -m pip install -r requirements.txt` dps `mkdocs serve` no 
 - antn03.vtf ✅
 - antn04.vtf ✅
 - gen01.vtf ✅
+- gen02.vtf ✅
 - gen03.vtf ✅
+- gen04.vtf ✅
+- gen05.vtf ✅
+- gen06.vtf ✅
 - gen07.vtf ✅
 - gen08.vtf ✅
 - gen09.vtf ✅

@@ -88,3 +88,21 @@ by Geoff Holman
 |  | Origem: `cstrike_pak_dir` |
 |![](../img/entr077L.jpg)|![](../img/tides_storagedoor.webp)|
 | Caminho: `Disk 1\photos\entr077L.jpg` |  Caminho: `materials\de_tides\tides_storagedoor.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+|  | Origem: `cstrike_pak_dir` |
+|![](../img/P1010895.jpg)|![](../img/offpaintingn.webp)|
+| Caminho: `Disk 1\photos\entr077L.jpg` |  Caminho: `materials\cs_havana\offpaintingn.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+|  | Origem: `cstrike_pak_dir` |
+|![](../img/P1010595.jpg)|![](../img/offpaintingc.webp)|
+| Caminho: `Disk 1\photos\P1010595.jpg` |  Caminho: `materials\cs_havana\offpaintingc.vtf` |
+
+| Source Texture | Final Texture |
+| -------------- | ------------- |
+|  | Origem: `cstrike_pak_dir` |
+|![](../img/P1010880.jpg)|![](../img/offpaintingm.webp)|
+| Caminho: `Disk 1\photos\P1010880.jpg` |  Caminho: `materials\cs_havana\offpaintingm.vtf` |

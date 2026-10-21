@@ -136,7 +136,7 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/skyr12L.webp)|![](img/gen02.webp)|
-|`Textures\Large1600x1200Max\skyr12L.jpg` | `materials\buildings\gen02.vtf` |
+|`Textures\Large1600x1200Max\skyr12L.jpg` | `materials\buildings\gen02.vtf`<br>`materials\cs_havana\gen02.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
@@ -148,7 +148,7 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/skyr15L.webp)|![](img/gen04.webp)|
-|`Textures\Large1600x1200Max\skyr15L.jpg` | `materials\buildings\gen04.vtf` |
+|`Textures\Large1600x1200Max\skyr15L.jpg` | `materials\buildings\gen04.vtf`<br>`materials\cs_havana\gen04.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
@@ -160,13 +160,13 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/skyr21L.webp)|![](img/gen05.webp)|
-|`Textures\Large1600x1200Max\skyr21L.jpg` | `materials\buildings\gen05.vtf` |
+|`Textures\Large1600x1200Max\skyr21L.jpg` | `materials\buildings\gen05.vtf`<br>`materials\cs_havana\gen05.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/skyr22L.webp)|![](img/gen06.webp)|
-|`Textures\Large1600x1200Max\skyr22L.jpg` | `materials\buildings\gen06.vtf` |
+|`Textures\Large1600x1200Max\skyr22L.jpg` | `materials\buildings\gen06.vtf`<br>`materials\cs_havana\gen06.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
@@ -184,13 +184,13 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/skyr28L.webp)|![](img/gen09.webp)![](img/gen10.webp)|
-|`Textures\Large1600x1200Max\skyr28L.jpg` | `materials\buildings\gen09.vtf`<br>`materials\buildings\gen10.vtf` |
+|`Textures\Large1600x1200Max\skyr28L.jpg` | `materials\buildings\gen09.vtf`<br>`materials\buildings\gen10.vtf`<br>`materials\cs_havana\gen10.vtf`|
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/skyr30L.webp)|![](img/gen11.webp)|
-|`Textures\Large1600x1200Max\skyr30L.jpg` | `materials\buildings\gen11.vtf` |
+|`Textures\Large1600x1200Max\skyr30L.jpg` | `materials\buildings\gen11.vtf`<br>`materials\cs_havana\gen11.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
@@ -202,13 +202,13 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/skyr33L.webp)|![](img/gen13.webp)|
-|`Textures\Large1600x1200Max\skyr33L.jpg` | `materials\buildings\gen13.vtf` |
+|`Textures\Large1600x1200Max\skyr33L.jpg` | `materials\buildings\gen13.vtf`<br>`materials\cs_havana\gen13.vtf` |
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/skyr34L.webp)|![](img/gen14.webp)|
-|`Textures\Large1600x1200Max\skyr34L.jpg` | `materials\buildings\gen14.vtf` |
+|`Textures\Large1600x1200Max\skyr34L.jpg` | `materials\buildings\gen14.vtf`<br>`materials\cs_hanava\gen14.vtf`|
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
@@ -479,8 +479,8 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img/wndw126L.jpg)|![](img/pwal8.webp)|
-|`Textures\Large\wndw126L.jpg`| `materials\cs_italy\pwal8.vtf`|
+|![](img/wndw126L.jpg)|![](img/pwal8.webp)![](img/cuwndg.webp)|
+|`Textures\Large\wndw126L.jpg`| `materials\cs_italy\pwal8.vtf`<br>`materials\cs_italy\cuwndg.vtf`|
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |
