@@ -101,7 +101,7 @@ by Geoff Holman
 | -------------- | ------------- |
 |![](../img/bldg089L.jpg)`Textures\Large\bldg089L.jpg`|![](../img/blde.webp)`materials\cs_havana\blde.vtf`|
 
-## bldg089L
+## bldg091L
 | Source Texture | Used in |
 | -------------- | ------------- |
 |![](../img/bldg091L.jpg)`Textures\Large\bldg091L.jpg`|![](../img/blde.webp)`materials\cs_havana\blde.vtf`|
