@@ -174,8 +174,8 @@ Contém texturas usadas em jogos como: Grand Theft Auto 3, Grand Theft Auto Vice
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
-| Tá faltando a porta e a grade |
-|![](../img/wal105L.jpg)`Textures\Large1600x1200Max\wal105L.jpg`<br> <br>Disco 7![](../img/entr123L.jpg)`Textures\Large\entr123L.jpg`|![](../img/doorarch.webp)`materials\models\de_cbble\doorarch.vtf`|
+| Tá faltando a grade | Textura contém elementos de entr123L do disco 7 |
+|![](../img/wal105L.jpg)`Textures\Large1600x1200Max\wal105L.jpg`|![](../img/doorarch.webp)`materials\models\de_cbble\doorarch.vtf`|
 
 | Source Texture | Final Texture |
 | -------------- | ------------- |
