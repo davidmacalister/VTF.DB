@@ -184,13 +184,13 @@ by Geoff Holman
 ## bldg055L
 | Source Texture | Used in |
 | -------------- | ------------- |
-|![](../img/bldg055L.jpg)`Textures\Large\bldg055L.jpg`|![](../img/bldc.webp)<img src="../img/capes/cs_havana.jpg" width="30" style="vertical-align: middle;">&nbsp;&nbsp;<a href="../havana/index.md" style="vertical-align: middle;">`cs_havana`</a> texture: [`bldc.vtf`](https://davidmacalister.github.io/Valve-Textures-Documentation/jogos/Counter-Strike%20Source/havana/#bldc)<br> <br>![](../img/bldf.webp)<img src="../img/capes/cs_havana.jpg" width="30" style="vertical-align: middle;">&nbsp;&nbsp;<a href="../havana/index.md" style="vertical-align: middle;">`cs_havana`</a> texture: [`bldf.vtf`](https://davidmacalister.github.io/Valve-Textures-Documentation/jogos/Counter-Strike%20Source/havana/#bldf)
+|![](../img/bldg055L.jpg)`Textures\Large\bldg055L.jpg`|![](../img/bldc.webp)<img src="../img/capes/cs_havana.jpg" width="30" style="vertical-align: middle;">&nbsp;&nbsp;<a href="https://davidmacalister.github.io/Valve-Textures-Documentation/jogos/Counter-Strike%20Source/havana/" style="vertical-align: middle;">`cs_havana`</a> texture: [`bldc.vtf`](https://davidmacalister.github.io/Valve-Textures-Documentation/jogos/Counter-Strike%20Source/havana/#bldc)<br> <br>![](../img/bldf.webp)<img src="../img/capes/cs_havana.jpg" width="30" style="vertical-align: middle;">&nbsp;&nbsp;<a href="https://davidmacalister.github.io/Valve-Textures-Documentation/jogos/Counter-Strike%20Source/havana/" style="vertical-align: middle;">`cs_havana`</a> texture: [`bldf.vtf`](https://davidmacalister.github.io/Valve-Textures-Documentation/jogos/Counter-Strike%20Source/havana/#bldf)
 |
 
 ## bldg003L
 | Source Texture | Used in |
 | -------------- | ------------- |
-|![](../img/bldg003L.jpg)`Textures\Large\bldg003L.jpg`|![](../img/bldc.webp)`materials\cs_havana\bldc.vtf`<br> <br>![](../img/bldf.webp)`materials\cs_havana\bldf.vtf`|
+|![](../img/bldg003L.jpg)`Textures\Large\bldg003L.jpg`|![](../img/bldc.webp)<img src="../img/capes/cs_havana.jpg" width="30" style="vertical-align: middle;">&nbsp;&nbsp;<a href="https://davidmacalister.github.io/Valve-Textures-Documentation/jogos/Counter-Strike%20Source/havana/" style="vertical-align: middle;">`cs_havana`</a> texture: [`bldc.vtf`](https://davidmacalister.github.io/Valve-Textures-Documentation/jogos/Counter-Strike%20Source/havana/#bldc)<br> <br>![](../img/bldf.webp)<img src="../img/capes/cs_havana.jpg" width="30" style="vertical-align: middle;">&nbsp;&nbsp;<a href="https://davidmacalister.github.io/Valve-Textures-Documentation/jogos/Counter-Strike%20Source/havana/" style="vertical-align: middle;">`cs_havana`</a> texture: [`bldf.vtf`](https://davidmacalister.github.io/Valve-Textures-Documentation/jogos/Counter-Strike%20Source/havana/#bldf)
 
 ## entr077L
 | Source Texture | Used in |
