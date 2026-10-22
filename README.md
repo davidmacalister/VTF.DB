@@ -59,6 +59,7 @@ use o comando `python -m pip install -r requirements.txt` dps `mkdocs serve` no 
 - floor05.vtf
 - woodm.vtf ✅
 - brickfdoor.vtf ✅
+- brickfdoorc01.vtf ✅
 
 ### materials\de_nuke
 - nuksign01.vtf ✅

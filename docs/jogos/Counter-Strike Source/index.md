@@ -461,8 +461,8 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Final Texture |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img/entr130L.webp)|![](img/door010.webp)|
-|`Textures\Large\entr130L.jpg` | `materials\de_cbble\door010.vtf` |
+|![](img/entr130L.webp)|![](img/door010.webp)![](img/brickfdoorc01.webp)|
+|`Textures\Large\entr130L.jpg` | `materials\de_cbble\door010.vtf`<br>`materials\de_chateau\brickfdoorc01.vtf`|
 
 | Source Texture | Final Texture |
 | -------------- | ---------------------- |
