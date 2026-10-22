@@ -99,3 +99,7 @@ use o comando `python -m pip install -r requirements.txt` dps `mkdocs serve` no 
 - gen23.vtf ✅
 - gen24.vtf ✅
 - gen25.vtf ✅
+
+### materials\test_speakers
+- miwoodm.vtf ✅
+- cuwoodm.vtf ✅
