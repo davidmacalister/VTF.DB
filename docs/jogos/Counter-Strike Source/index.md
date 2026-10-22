@@ -9,7 +9,7 @@ title: "Counter-Strike: Source"
 ## Textures by map
 |assault `0%`|compound `0%`|havana `0%`|italy `0%`|office `0%`|piranesi `0%`|
 |---|---|---|---|---|---|
-|![](img\capes\cs_assault.jpg)|![](img\capes\cs_compound.jpg)|![](img\capes\cs_havana.jpg)|![](img\capes\cs_italy.jpg)|![](img\capes\cs_office.jpg)|![](img\capes\de_piranesi.jpg)|
+|![](img\capes\cs_assault.jpg)|![](img\capes\cs_compound.jpg)|[![](img\capes\cs_havana.jpg)](havana/index.md)|![](img\capes\cs_italy.jpg)|![](img\capes\cs_office.jpg)|![](img\capes\de_piranesi.jpg)|
 |**cbble** `0%`|**chateau** `0%`|**dust** `0%`|**dust2** `0%`|**militia** `0%`|**aztec** `0%`|
 |![](img\capes\de_cbble.jpg)|![](img\capes\de_chateau.jpg)|[![](img\capes\de_dust.jpg)](dust/index.md)|![](img\capes\de_dust2.jpg)|![](img\capes\cs_militia.jpg)|![](img\capes\de_aztec.jpg)|
 |**port** `0%`|**prodigy** `0%`|**tides** `0%`|**train** `0%`|**nuke** `0%`|**inferno** `0%`|
