@@ -49,7 +49,7 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | -------------- | ------------- |
 |  | Origem: `cstrike_pak_dir` |
 |![](img/wood02L.jpg)|![](img/woodm.webp)|
-|`Textures\Large\wood02L.jpg` | `materials\cs_havana\woodm.vtf` |
+|`Textures\Large\wood02L.jpg` | `materials\cs_havana\woodm.vtf`<br>`materials\de_chateau\woodm.vtf` |
 
 
 ## Disco 5
@@ -444,7 +444,7 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
 |![](img/entr036L.webp)|![](img/door011.webp)|
-|`Textures\Large\entr036L.jpg` | `materials\de_dust\door011.vtf` |
+|`Textures\Large\entr036L.jpg` | `materials\de_dust\door011.vtf`<br>`materials\de_cbble\door011.vtf`|
 
 | Source Texture | Final Texture |
 | -------------- | ---------------------- |
@@ -467,8 +467,8 @@ Obtenha discos antes de 2004, pois seria impossível ter conteúdo do jogo após
 | Source Texture | Final Texture |
 | -------------- | ---------------------- |
 | | Origem: `cstrike_pak_dir` |
-|![](img/entr141L.jpg)|![](img/extdoor01.webp)|
-|`Textures\Large\entr141L.jpg` | `materials\de_chateau\extdoor01.vtf` |
+|![](img/entr141L.jpg)|![](img/extdoor01.webp)![](img/brickfdoor.webp)|
+|`Textures\Large\entr141L.jpg` | `materials\de_chateau\extdoor01.vtf`<br>`materials\de_chateau\brickfdoor.vtf` |
 
 | Source Texture | Counter-Strike: Source |
 | -------------- | ---------------------- |

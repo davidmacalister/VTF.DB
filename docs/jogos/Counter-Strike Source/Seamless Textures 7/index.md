@@ -106,3 +106,15 @@ by Geoff Holman
 |  | Origem: `cstrike_pak_dir` |
 |![](../img/P1010880.jpg)|![](../img/offpaintingm.webp)|
 | Caminho: `Disk 1\photos\P1010880.jpg` |  Caminho: `materials\cs_havana\offpaintingm.vtf` |
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| | Origem: `cstrike_pak_dir` |
+|![](../img/wndw127L.jpg)|![](../img/wndf.webp)![](../img/cuwndf.webp)|
+|`Textures\Large\bldg055L.jpg`| `materials\cs_havana\wndf.vtf`<br>`materials\cs_havana\cuwndf.vtf`|
+
+| Source Texture | Counter-Strike: Source |
+| -------------- | ---------------------- |
+| parece faltar a parede | Origem: `cstrike_pak_dir` |
+|![](../img/wndw219L.jpg)![](../img/wndw209L.jpg)|![](../img/wnda.webp)![](../img/cuwndb.webp)|
+|`Textures\Large\wndw219L.jpg`<br>`Textures\Large\wndw209L.jpg` | `materials\models\cs_italy\wnda.vtf`<br>`materials\models\cs_italy\cuwndb.vtf`|

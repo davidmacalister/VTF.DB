@@ -6,6 +6,9 @@ use o comando `python -m pip install -r requirements.txt` dps `mkdocs serve` no 
 **Progress:**
 - materials\models\de_cbble `100%`
 
+### materials\de_cbble
+- door011.vtf ✅
+
 ### materials\cs_italy
 - cuwndg.vtf ✅
 - pwal8.vtf ✅
@@ -30,9 +33,12 @@ use o comando `python -m pip install -r requirements.txt` dps `mkdocs serve` no 
 - bldb.vtf ✅
 - bldf.vtf ✅
 - blde.vtf ✅
+- cuwndf.vtf ✅
 - offpaintingn.vtf ✅
 - offpaintingc.vtf ✅
 - offpaintingm.vtf ✅
+- framed05sn.vtf
+- cuwndb.vtf ✅
 
 ### Dust
 - pi_bigbrk.vtf
@@ -51,6 +57,8 @@ use o comando `python -m pip install -r requirements.txt` dps `mkdocs serve` no 
 - drd.vtf
 - brickfdoor.vtf
 - floor05.vtf
+- woodm.vtf ✅
+- brickfdoor.vtf ✅
 
 ### materials\de_nuke
 - nuksign01.vtf ✅
