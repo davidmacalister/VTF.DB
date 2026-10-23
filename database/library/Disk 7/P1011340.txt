@@ -1,9 +1,0 @@
-directoy=photos\P1011340.jpg
-
-vtfs;
-materials\models\props\cs_havana\offpaintingf2.vtf
-materials\models\props\cs_havana\offpaintingf1.vtf
-materials\models\props\cs_office\offpaintingf.vtf
-materials\models\props\plazahl2\test.vtf
-
-bldc, bldf

@@ -1,0 +1,9 @@
+{
+  "original_path": "Textures/Large/wood02L.jpg",
+  "derived_textures": [
+    "cstrike_pak_dir.vpk/materials/cs_havana/woodm.vtf",
+    "cstrike_pak_dir.vpk/materials/de_chateau/woodm.vtf",
+    "cstrike_pak_dir.vpk/materials/test_speakers/miwoodm.vtf",
+    "cstrike_pak_dir.vpk/materials/test_speakers/cuwoodm.vtf"
+  ]
+}

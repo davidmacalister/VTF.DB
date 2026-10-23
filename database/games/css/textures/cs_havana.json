@@ -3,8 +3,6 @@
   "title": "Havana",
   "filename": "cs_havana.bsp",
   "textures": [
-    "cstrike_pak_dir.vpk/materials/brick/havana_brick01.vtf",
-    "cstrike_pak_dir.vpk/materials/plaster/plasterwall03.vtf",
-    "cstrike_pak_dir.vpk/materials/wood/wooddoor02.vtf"
+    "cstrike_pak_dir.vpk/materials/cs_havana/woodm.vtf"
   ]
 }
