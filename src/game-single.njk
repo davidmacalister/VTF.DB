@@ -1,0 +1,57 @@
+---
+pagination:
+  data: collections.gamesList
+  size: 1
+  alias: gameItem
+permalink: "/games/{{ gameItem.game }}/"
+layout: layout.njk
+---
+<h1>{{ gameItem.info.full_name | default(gameItem.game | upper) }}</h1>
+
+{% if gameItem.info %}
+  <div style="background: #2a2a2a; padding: 15px; margin-bottom: 20px; border-radius: 5px;">
+    {% if gameItem.info.developer %}
+      <p><strong>Desenvolvedora:</strong> {{ gameItem.info.developer }}</p>
+    {% endif %}
+    {% if gameItem.info.release_year %}
+      <p><strong>Lançamento:</strong> {{ gameItem.info.release_year }}</p>
+    {% endif %}
+    {% if gameItem.info.description %}
+      <p>{{ gameItem.info.description }}</p>
+    {% endif %}
+  </div>
+{% endif %}
+
+<!-- Bloco NOVO: Listagem de Bibliotecas -->
+{% if gameItem.usedLibraries | length > 0 %}
+  <h2>Bibliotecas Utilizadas neste Jogo</h2>
+  <ul style="margin-bottom: 20px;">
+    {% for libName in gameItem.usedLibraries %}
+      <li>
+        <a href="/library/{{ libName | slugify }}/">{{ libName }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<h2>Mapas deste jogo</h2>
+<ul>
+  {% for map in collections.mapsList %}
+    {% if map.game == gameItem.game %}
+      <li style="margin-bottom: 10px;">
+        <a href="/games/{{ map.game }}/{{ map.mapId }}/">
+          <strong>{{ map.mapData.title }}</strong> (<code>{{ map.mapData.filename }}</code>)
+        </a> 
+        
+        <span style="display: inline-block; margin-left: 15px; font-size: 0.9em;">
+          {% if map.stats.percentage == 100 %}
+            ✅ Completado
+          {% else %}
+            ⏳ {{ map.stats.percentage }}% documentado 
+          {% endif %}
+          <span style="color: #888;">({{ map.stats.mapped }}/{{ map.stats.total }} texturas)</span>
+        </span>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

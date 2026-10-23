@@ -1,0 +1,80 @@
+---
+pagination:
+  data: collections.librariesList
+  size: 1
+  alias: libItem
+permalink: "/library/{{ libItem.libraryName | slugify }}/"
+layout: layout.njk
+---
+<h1>Biblioteca: {{ libItem.libraryName }}</h1>
+
+{% if libItem.info %}
+  <div style="background: #223; padding: 15px; margin-bottom: 20px; border-left: 4px solid #4db8ff;">
+    {% if libItem.info.author %}
+      <p><strong>Autor/Empresa:</strong> {{ libItem.info.author }}</p>
+    {% endif %}
+    {% if libItem.info.year %}
+      <p><strong>Ano:</strong> {{ libItem.info.year }}</p>
+    {% endif %}
+    {% if libItem.info.description %}
+      <p><em>{{ libItem.info.description }}</em></p>
+    {% endif %}
+  </div>
+{% endif %}
+
+<!-- Loop agora envolve o título H2 e a Tabela inteira -->
+{% for img in libItem.images %}
+  
+  <h2>{{ img.imageData.original_path.split('/') | last | default(img.imageId) }}</h2>
+
+  <table style="margin-bottom: 30px;">
+    <thead>
+      <tr>
+        <th>Photo (Origem)</th>
+        <th>Used in (Modificada)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <!-- Coluna 1: A Foto Origem -->
+        <td>
+          <img src="/img/{{ img.imageId }}.jpg" alt="Foto origem">
+          <code>{{ img.imageData.original_path }}</code>
+        </td>
+
+        <!-- Coluna 2: Texturas geradas e Onde foram usadas -->
+        <td>
+          {% for texturePath in img.imageData.derived_textures %}
+            <div style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #333;">
+              
+              {% set manualImage = textureCatalog[texturePath] %}
+              
+              {% if manualImage %}
+                <img src="/img/{{ manualImage }}" alt="Textura">
+              {% else %}
+                <div style="padding: 10px; border: 1px dashed red; margin-bottom: 5px; max-width: 200px;">
+                  🚫 Imagem não associada
+                </div>
+              {% endif %}
+              
+              <code>{{ texturePath }}</code><br>
+              
+              <strong>Usada em:</strong>
+              <ul>
+              {% for map in collections.mapsList %}
+                {% if texturePath in map.mapData.textures %}
+                  <li>
+                    <a href="/games/{{ map.game }}/{{ map.mapId }}/">
+                      {{ map.game | upper }} - {{ map.mapData.title }}
+                    </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+              </ul>
+            </div>
+          {% endfor %}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+{% endfor %}

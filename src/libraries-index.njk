@@ -1,0 +1,16 @@
+---
+permalink: /library/index.html
+layout: layout.njk
+title: Lista de Bibliotecas
+---
+<h1>Bibliotecas de Origem (Library)</h1>
+
+<ul>
+  {% for lib in collections.librariesList %}
+    <li>
+      <a href="/library/{{ lib.libraryName | slugify }}/">{{ lib.libraryName }}</a>
+    </li>
+  {% else %}
+    <li>Nenhuma biblioteca encontrada no banco de dados.</li>
+  {% endfor %}
+</ul>

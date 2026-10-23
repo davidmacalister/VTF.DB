@@ -1,0 +1,15 @@
+{
+  "name": "valve-jad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7"
+  }
+}

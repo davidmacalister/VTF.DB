@@ -1,0 +1,7 @@
+nome_biblioteca:
+empresa:
+desc_disco:
+desc_site:
+link_download:
+abandoware:
+capa:

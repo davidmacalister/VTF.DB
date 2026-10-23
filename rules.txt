@@ -1,0 +1,24 @@
+quando em um arquivo em /database
+
+photo.json ter
+
+disk=(x) = page/disk(x)
+
+quando em um arquivo em /pages
+
+page.json ter
+caminho.vtf, adicionar a textura com o template nas páginas de mapa esse template
+
+## texturename
+| Texture | Come from |
+| ------- | --------- |
+|![](texturefilename.jxl)`texturepath`|![](photofilename.jxl)`photofilename(with link do disk page)`|
+
+imagens do site ficam em /img
+
+pra páginas de disco esse
+
+## photofilename
+| Photo | Used in |
+| ------- | --------- |
+|![](photofilename.jxl)`photopath`|![](texturefilename.jxl)`texturefilename.vtf(with link to map page)`|

@@ -1,0 +1,16 @@
+---
+permalink: /games/index.html
+layout: layout.njk
+title: Lista de Jogos
+---
+<h1>Jogos Disponíveis</h1>
+
+<ul>
+  {% for item in collections.gamesList %}
+    <li>
+      <a href="/games/{{ item.game }}/">{{ item.game | upper }}</a>
+    </li>
+  {% else %}
+    <li>Nenhum jogo encontrado no banco de dados.</li>
+  {% endfor %}
+</ul>
