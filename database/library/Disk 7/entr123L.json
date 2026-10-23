@@ -1,6 +1,7 @@
 {
   "original_path": "Textures/Large/entr123L.jpg",
   "derived_textures": [
-    "cstrike_pak_dir.vpk/materials/de_cbble/doorarch.vtf"
+    "cstrike_pak_dir.vpk/materials/de_piranese/wooddoor01.vtf",
+    "cstrike_pak_dir.vpk/materials/models/de_cbble/doorarch.vtf"
   ]
 }

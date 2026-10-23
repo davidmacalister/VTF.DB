@@ -41,7 +41,13 @@
 "cstrike_pak_dir.vpk/materials/cs_italy/pwal8.vtf": "pwal8.webp",
 "cstrike_pak_dir.vpk/materials/cs_italy/cuwndg.vtf": "cuwndg.webp",
 "cstrike_pak_dir.vpk/materials/models/cs_italy/cuwndb.vtf": "cuwndb.webp",
-"cstrike_pak_dir.vpk/materials/de_cbble/doorarch.vtf": "doorarch.webp",
+"cstrike_pak_dir.vpk/materials/models/de_cbble/doorarch.vtf": "doorarch.webp",
 "cstrike_pak_dir.vpk/materials/de_cbble/door011.vtf": "door011.webp",
-"cstrike_pak_dir.vpk/materials/de_cbble/door010.vtf": "door010.webp"
+"cstrike_pak_dir.vpk/materials/de_cbble/door010.vtf": "door010.webp",
+"cstrike_pak_dir.vpk/materials/de_piranese/wooddoor01.vtf": "wooddoor01.webp",
+"cstrike_pak_dir.vpk/materials/de_chateau/brickfdoorc01.vtf": "brickfdoorc01.webp",
+"cstrike_pak_dir.vpk/materials/de_dust/door011.vtf": "door011.webp",
+"cstrike_pak_dir.vpk/materials/de_chateau/extdoor01.vtf": "extdoor01.webp",
+"cstrike_pak_dir.vpk/materials/de_chateau/brickfdoor.vtf": "brickfdoor.webp",
+"cstrike_pak_dir.vpk/materials/models/de_dust/windows/window_4x4_square_flat.vtf": "window_4x4_square_flat.webp"
 }

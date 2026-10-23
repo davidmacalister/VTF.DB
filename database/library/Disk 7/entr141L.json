@@ -1,0 +1,7 @@
+{
+  "original_path": "Textures/Large/entr141L.jpg",
+  "derived_textures": [
+    "cstrike_pak_dir.vpk/materials/de_chateau/extdoor01.vtf",
+    "cstrike_pak_dir.vpk/materials/de_chateau/brickfdoor.vtf"
+  ]
+}
