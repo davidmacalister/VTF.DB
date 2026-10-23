@@ -6,5 +6,17 @@
 "cstrike_pak_dir.vpk/materials/cs_havana/bldc.vtf": "bldc.webp",
 "cstrike_pak_dir.vpk/materials/cs_havana/bldf.vtf": "bldf.webp",
 "cstrike_pak_dir.vpk/materials/cs_havana/blde.vtf": "blde.webp",
-"cstrike_pak_dir.vpk/materials/cs_havana/building03.vtf": "building03.webp"
+"cstrike_pak_dir.vpk/materials/cs_havana/building03.vtf": "building03.webp",
+"cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingf.vtf": "offpaintingf.webp",
+"cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingh.vtf": "offpaintingh.webp",
+"cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingo.vtf": "offpaintingo.webp",
+"cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingl.vtf": "offpaintingl.webp",
+"cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingk.vtf": "offpaintingk.webp",
+"cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingj.vtf": "offpaintingj.webp",
+"cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingi.vtf": "offpaintingi.webp",
+"cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingg.vtf": "offpaintingg.webp",
+"cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintinge.vtf": "offpaintinge.webp",
+"cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingd.vtf": "offpaintingd.webp",
+"cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintinga.vtf": "offpaintinga.webp",
+"cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingb.vtf": "offpaintingb.webp"
 }
