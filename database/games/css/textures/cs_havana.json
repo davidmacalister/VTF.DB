@@ -1,5 +1,5 @@
 {
-  "cover_image": "/img/cs_havana.jxl",
+  "cover_image": "/img/cs_havana.jpg",
   "title": "Havana",
   "filename": "cs_havana.bsp",
   "textures": [
@@ -7,6 +7,16 @@
     "cstrike_pak_dir.vpk/materials/cs_havana/bldf.vtf",
     "cstrike_pak_dir.vpk/materials/cs_havana/blde.vtf",
     "cstrike_pak_dir.vpk/materials/cs_havana/building03.vtf",
-    "cstrike_pak_dir.vpk/materials/cs_havana/woodm.vtf"
+    "cstrike_pak_dir.vpk/materials/cs_havana/woodm.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/bldb.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/building05.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/wndx2.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/wndx1.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/offpaintingn.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/offpaintingc.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/offpaintingm.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/wndf.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/cuwndf.vtf",
+    "cstrike_pak_dir.vpk/materials/models/cs_havana/wndc.vtf"
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "original_path": "Textures/Large/wndw127L.jpg",
+  "derived_textures": [
+    "cstrike_pak_dir.vpk/materials/cs_havana/wndf.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/cuwndf.vtf"
+  ]
+}
