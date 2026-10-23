@@ -4,9 +4,9 @@
   "filename": "cs_italy.bsp",
   "textures": [
     "cstrike_pak_dir.vpk/materials/models/cs_italy/wnda.vtf",
-    "cstrike_pak_dir.vpk/materials/models/cs_italy/doora.vtf",
-    "cstrike_pak_dir.vpk/materials/models/cs_italy/pwal8.vtf",
-    "cstrike_pak_dir.vpk/materials/models/cs_italy/cuwndg.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_italy/doora.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_italy/pwal8.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_italy/cuwndg.vtf",
     "cstrike_pak_dir.vpk/materials/models/cs_italy/cuwndb.vtf"
   ]
 }

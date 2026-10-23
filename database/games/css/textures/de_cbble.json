@@ -1,0 +1,10 @@
+{
+  "cover_image": "/img/maps/de_cbble.jpg",
+  "title": "Cbble",
+  "filename": "de_cbble.bsp",
+  "textures": [
+    "cstrike_pak_dir.vpk/materials/de_cbble/doorarch.vtf",
+    "cstrike_pak_dir.vpk/materials/de_cbble/door011.vtf",
+    "cstrike_pak_dir.vpk/materials/de_cbble/door010.vtf"
+  ]
+}
