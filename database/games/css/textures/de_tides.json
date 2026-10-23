@@ -1,0 +1,12 @@
+{
+  "cover_image": "/img/maps/de_tides.jpg",
+  "title": "Tides",
+  "filename": "de_tides.bsp",
+  "textures": [
+    "cstrike_pak_dir.vpk/materials/de_tides/tides_window_1.vtf",
+    "cstrike_pak_dir.vpk/materials/de_tides/tides_wooden_arc_door_2.vtf",
+    "cstrike_pak_dir.vpk/materials/de_tides/tides_wooden_arc_door.vtf",
+    "cstrike_pak_dir.vpk/materials/de_tides/tides_brick_wall_l.vtf",
+    "cstrike_pak_dir.vpk/materials/de_tides/tides_storagedoor.vtf"
+  ]
+}

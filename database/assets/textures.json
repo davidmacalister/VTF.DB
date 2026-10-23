@@ -29,5 +29,16 @@
 "cstrike_pak_dir.vpk/materials/cs_havana/wndf.vtf": "wndf.webp",
 "cstrike_pak_dir.vpk/materials/cs_havana/cuwndf.vtf": "cuwndf.webp",
 "cstrike_pak_dir.vpk/materials/models/cs_havana/wndc.vtf": "wndc.webp",
-"cstrike_pak_dir.vpk/materials/plaster/infwndwf.vtf": "infwndwf.webp"
+"cstrike_pak_dir.vpk/materials/plaster/infwndwf.vtf": "infwndwf.webp",
+"cstrike_pak_dir.vpk/materials/composite/buildingset022b.vtf": "buildingset022b.webp",
+"cstrike_pak_dir.vpk/materials/de_tides/tides_window_1.vtf": "tides_window_1.webp",
+"cstrike_pak_dir.vpk/materials/de_tides/tides_wooden_arc_door_2.vtf": "tides_wooden_arc_door_2.webp",
+"cstrike_pak_dir.vpk/materials/de_tides/tides_wooden_arc_door.vtf": "tides_wooden_arc_door.webp",
+"cstrike_pak_dir.vpk/materials/de_tides/tides_brick_wall_l.vtf": "tides_brick_wall_l.webp",
+"cstrike_pak_dir.vpk/materials/de_tides/tides_storagedoor.vtf": "tides_storagedoor.webp",
+"cstrike_pak_dir.vpk/materials/models/cs_italy/wnda.vtf": "wnda.webp",
+"cstrike_pak_dir.vpk/materials/models/cs_italy/doora.vtf": "doora.webp",
+"cstrike_pak_dir.vpk/materials/models/cs_italy/pwal8.vtf": "pwal8.webp",
+"cstrike_pak_dir.vpk/materials/models/cs_italy/cuwndg.vtf": "cuwndg.webp",
+"cstrike_pak_dir.vpk/materials/models/cs_italy/cuwndb.vtf": "cuwndb.webp"
 }
