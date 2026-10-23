@@ -1,3 +1,10 @@
 {
-"cstrike_pak_dir.vpk/materials/brick/havana_brick01.vtf": "3327859.jpg"
+"cstrike_pak_dir.vpk/materials/cs_havana/woodm.vtf": "woodm.webp",
+"cstrike_pak_dir.vpk/materials/de_chateau/woodm.vtf": "woodm.webp",
+"cstrike_pak_dir.vpk/materials/test_speakers/miwoodm.vtf": "miwoodm.webp",
+"cstrike_pak_dir.vpk/materials/test_speakers/cuwoodm.vtf": "cuwoodm.webp",
+"cstrike_pak_dir.vpk/materials/cs_havana/bldc.vtf": "bldc.webp",
+"cstrike_pak_dir.vpk/materials/cs_havana/bldf.vtf": "bldf.webp",
+"cstrike_pak_dir.vpk/materials/cs_havana/blde.vtf": "blde.webp",
+"cstrike_pak_dir.vpk/materials/cs_havana/building03.vtf": "building03.webp"
 }

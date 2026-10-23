@@ -1,0 +1,19 @@
+{
+  "cover_image": "/img/cs_office.jxl",
+  "title": "Office",
+  "filename": "cs_office.bsp",
+  "textures": [
+    "cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingf.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingh.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingo.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingl.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingk.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingj.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingi.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingg.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintinge.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingd.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintinga.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/cs_office/offpaintingb.vtf"
+  ]
+}

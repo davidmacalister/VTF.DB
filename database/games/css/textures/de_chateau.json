@@ -1,0 +1,8 @@
+{
+  "cover_image": "/img/de_chateau.jxl",
+  "title": "Chateau",
+  "filename": "de_chateau.bsp",
+  "textures": [
+    "cstrike_pak_dir.vpk/materials/de_chateau/woodm.vtf"
+  ]
+}

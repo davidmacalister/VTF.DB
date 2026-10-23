@@ -1,8 +1,12 @@
 {
-  "cover_image": "/img/maps/cs_havana_cover.jxl",
+  "cover_image": "/img/cs_havana.jxl",
   "title": "Havana",
   "filename": "cs_havana.bsp",
   "textures": [
+    "cstrike_pak_dir.vpk/materials/cs_havana/bldc.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/bldf.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/blde.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/building03.vtf",
     "cstrike_pak_dir.vpk/materials/cs_havana/woodm.vtf"
   ]
 }
