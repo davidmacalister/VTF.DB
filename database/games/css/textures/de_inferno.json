@@ -1,0 +1,10 @@
+{
+  "cover_image": "/img/maps/de_inferno.jpg",
+  "title": "Inferno",
+  "filename": "de_inferno.bsp",
+  "textures": [
+    "cstrike_pak_dir.vpk/materials/models/props/de_inferno/picture1.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/de_inferno/picture2.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/de_inferno/picture3.vtf"
+  ]
+}

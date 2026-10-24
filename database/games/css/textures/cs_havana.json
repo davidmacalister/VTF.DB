@@ -25,6 +25,9 @@
     "cstrike_pak_dir.vpk/materials/cs_havana/gen06.vtf",
     "cstrike_pak_dir.vpk/materials/cs_havana/gen05.vtf",
     "cstrike_pak_dir.vpk/materials/cs_havana/gen04.vtf",
-    "cstrike_pak_dir.vpk/materials/cs_havana/gen02.vtf"
+    "cstrike_pak_dir.vpk/materials/cs_havana/gen02.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/picta.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/pictb.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_havana/pictc.vtf"
   ]
 }

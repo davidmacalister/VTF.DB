@@ -8,6 +8,9 @@
     "cstrike_pak_dir.vpk/materials/de_tides/tides_wooden_arc_door.vtf",
     "cstrike_pak_dir.vpk/materials/de_tides/tides_brick_wall_l.vtf",
     "cstrike_pak_dir.vpk/materials/de_tides/tides_storagedoor.vtf",
-    "cstrike_pak_dir.vpk/materials/de_tides/tiddecwndw01.vtf"
+    "cstrike_pak_dir.vpk/materials/de_tides/tiddecwndw01.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/de_tides/tides_banner_a.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/de_tides/tides_flag_a.vtf",
+    "cstrike_pak_dir.vpk/materials/de_tides/tiddecclosed.vtf"
   ]
 }

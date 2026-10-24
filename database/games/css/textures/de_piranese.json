@@ -4,6 +4,13 @@
   "filename": "de_piranese.bsp",
   "textures": [
     "cstrike_pak_dir.vpk/materials/de_piranese/wooddoor01.vtf",
-    "cstrike_pak_dir.vpk/materials/de_piranese/walltrim01.vtf"
+    "cstrike_pak_dir.vpk/materials/de_piranese/walltrim01.vtf",
+    "cstrike_pak_dir.vpk/materials/de_piranesi/pi_art1.vtf",
+    "cstrike_pak_dir.vpk/materials/de_piranesi/pi_art2.vtf",
+    "cstrike_pak_dir.vpk/materials/de_piranesi/pi_art3.vtf",
+    "cstrike_pak_dir.vpk/materials/de_piranesi/pi_art4.vtf",
+    "cstrike_pak_dir.vpk/materials/de_piranesi/{pi_tapestry1.vtf",
+    "cstrike_pak_dir.vpk/materials/de_piranesi/{pi_tapestry2.vtf",
+    "cstrike_pak_dir.vpk/materials/de_piranesi/{pi_tapestry3.vtf"
   ]
 }

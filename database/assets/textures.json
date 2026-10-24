@@ -116,5 +116,22 @@
 "cstrike_pak_dir.vpk/materials/building/antn04.vtf": "antn04.webp",
 "cstrike_pak_dir.vpk/materials/building/antn03.vtf": "antn03.webp",
 "cstrike_pak_dir.vpk/materials/de_nuke/nukventa.vtf": "nukventa.webp",
-"cstrike_pak_dir.vpk/materials/de_nuke/nukwindowe.vtf": "nukwindowe.webp"
+"cstrike_pak_dir.vpk/materials/de_nuke/nukwindowe.vtf": "nukwindowe.webp",
+"cstrike_pak_dir.vpk/materials/de_piranesi/pi_smdoor.vtf": "pi_smdoor.webp",
+"cstrike_pak_dir.vpk/materials/models/props/de_inferno/picture1.vtf": "picture1.webp",
+"cstrike_pak_dir.vpk/materials/models/props/de_inferno/picture2.vtf": "picture2.webp",
+"cstrike_pak_dir.vpk/materials/models/props/de_inferno/picture3.vtf": "picture3.webp",
+"cstrike_pak_dir.vpk/materials/models/props/de_tides/tides_flag_a.vtf": "tides_flag_a.webp",
+"cstrike_pak_dir.vpk/materials/models/props/de_tides/tides_banner_a.vtf": "tides_banner_a.webp",
+"cstrike_pak_dir.vpk/materials/cs_havana/picta.vtf": "picture1.webp",
+"cstrike_pak_dir.vpk/materials/cs_havana/pictb.vtf": "picture2.webp",
+"cstrike_pak_dir.vpk/materials/cs_havana/pictc.vtf": "picture3.webp",
+"cstrike_pak_dir.vpk/materials/de_piranesi/pi_art1.vtf": "pi_art1.webp",
+"cstrike_pak_dir.vpk/materials/de_piranesi/pi_art2.vtf": "pi_art2.webp",
+"cstrike_pak_dir.vpk/materials/de_piranesi/pi_art3.vtf": "pi_art3.webp",
+"cstrike_pak_dir.vpk/materials/de_piranesi/pi_art4.vtf": "pi_art4.webp",
+"cstrike_pak_dir.vpk/materials/de_piranesi/{pi_tapestry1.vtf": "{pi_tapestry1.webp",
+"cstrike_pak_dir.vpk/materials/de_piranesi/{pi_tapestry2.vtf": "{pi_tapestry2.webp",
+"cstrike_pak_dir.vpk/materials/de_piranesi/{pi_tapestry3.vtf": "{pi_tapestry3.webp",
+"cstrike_pak_dir.vpk/materials/de_tides/tiddecclosed.vtf": "tiddecclosed.webp"
 }
