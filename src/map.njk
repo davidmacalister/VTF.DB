@@ -7,10 +7,10 @@ permalink: "/games/{{ mapItem.game }}/{{ mapItem.mapId }}/"
 layout: layout.njk
 ---
 <h1>{{ mapItem.mapData.title }}</h1>
-<p>Jogo: {{ mapItem.game | upper }} | Arquivo: <code>{{ mapItem.mapData.filename }}</code></p>
+<p>Game: {{ mapItem.game | upper }} | File: <code>{{ mapItem.mapData.filename }}</code></p>
 
 <div style="background: #232; padding: 15px; margin-bottom: 20px; border-left: 4px solid #4caf50;">
-  <p><strong>Origens encontradas para {{ mapItem.stats.mapped }} de {{ mapItem.stats.total }} texturas ({{ mapItem.stats.percentage }}%)</strong></p>
+  <p><strong>Sources found for {{ mapItem.stats.mapped }} of {{ mapItem.stats.total }} textures ({{ mapItem.stats.percentage }}%)</strong></p>
   <div style="height: 10px; background: #333;">
     <div style="height: 100%; width: {{ mapItem.stats.percentage }}%; background: #4caf50;"></div>
   </div>
@@ -18,7 +18,6 @@ layout: layout.njk
 
 <img src="{{ mapItem.mapData.cover_image }}" alt="Capa de {{ mapItem.mapData.title }}">
 
-<!-- Loop agora envolve o título H2 e a Tabela inteira -->
 {% for texturePath in mapItem.mapData.textures %}
   
   <h2>{{ texturePath.split('/') | last }}</h2>
@@ -27,34 +26,32 @@ layout: layout.njk
     <thead>
       <tr>
         <th>Texture</th>
-        <th>Come from</th>
+        <th>Source</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <!-- Coluna 1: Imagem Modificada -->
         <td>
           {% set manualImage = textureCatalog[texturePath] %}
           
           {% if manualImage %}
-            <img src="/img/{{ manualImage }}" alt="Textura modificada">
+            <img src="/img/{{ manualImage }}" alt="Modified texture">
           {% else %}
             <div style="padding: 10px; border: 1px dashed red; margin-bottom: 5px;">
-              🚫 Imagem não associada
+              🚫 Image not linked
             </div>
           {% endif %}
           
           <code>{{ texturePath }}</code>
         </td>
 
-        <!-- Coluna 2: Lógica de busca da Origem -->
         <td>
           {% set foundOrigin = false %}
           
           {% for lib in collections.librariesList %}
             {% for img in lib.images %}
               {% if texturePath in img.imageData.derived_textures %}
-                <img src="/img/{{ img.imageId }}.jpg" alt="Foto origem">
+                <img src="/img/{{ img.imageId }}.jpg" alt="Source photo">
                 <code>{{ img.imageData.original_path }}</code><br>
                 <a href="/library/{{ lib.libraryName | slugify }}/">{{ lib.libraryName }}</a>
                 {% set foundOrigin = true %}
@@ -63,7 +60,7 @@ layout: layout.njk
           {% endfor %}
 
           {% if not foundOrigin %}
-            <em>Nenhuma origem mapeada.</em>
+            <em>No source mapped.</em>
           {% endif %}
         </td>
       </tr>

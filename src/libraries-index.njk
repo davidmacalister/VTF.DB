@@ -1,9 +1,9 @@
 ---
 permalink: /library/index.html
 layout: layout.njk
-title: Lista de Bibliotecas
+title: Libraries
 ---
-<h1>Bibliotecas de Origem (Library)</h1>
+<h1>Source Libraries</h1>
 
 <ul>
   {% for lib in collections.librariesList %}
@@ -11,6 +11,6 @@ title: Lista de Bibliotecas
       <a href="/library/{{ lib.libraryName | slugify }}/">{{ lib.libraryName }}</a>
     </li>
   {% else %}
-    <li>Nenhuma biblioteca encontrada no banco de dados.</li>
+    <li>No libraries found in the database.</li>
   {% endfor %}
 </ul>

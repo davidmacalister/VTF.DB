@@ -1,15 +1,15 @@
 ---
 layout: layout.njk
 ---
-coisa
+Texture database overview
 
-## Raio-X do Banco de Dados
+## Database Overview
 
-### Lista de Jogos Encontrados:
+### Games Found
 <pre>{{ collections.gamesList | json }}</pre>
 
-### Lista de Mapas Encontrados:
+### Maps Found
 <pre>{{ collections.mapsList | json }}</pre>
 
-### Lista de Bibliotecas Encontradas:
+### Libraries Found
 <pre>{{ collections.librariesList | json }}</pre>

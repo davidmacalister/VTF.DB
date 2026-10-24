@@ -1,9 +1,9 @@
 ---
 permalink: /games/index.html
 layout: layout.njk
-title: Lista de Jogos
+title: Games
 ---
-<h1>Jogos Disponíveis</h1>
+<h1>Available Games</h1>
 
 <ul>
   {% for item in collections.gamesList %}
@@ -11,6 +11,6 @@ title: Lista de Jogos
       <a href="/games/{{ item.game }}/">{{ item.game | upper }}</a>
     </li>
   {% else %}
-    <li>Nenhum jogo encontrado no banco de dados.</li>
+    <li>No games found in the database.</li>
   {% endfor %}
 </ul>

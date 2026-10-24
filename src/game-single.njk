@@ -11,10 +11,10 @@ layout: layout.njk
 {% if gameItem.info %}
   <div style="background: #2a2a2a; padding: 15px; margin-bottom: 20px; border-radius: 5px;">
     {% if gameItem.info.developer %}
-      <p><strong>Desenvolvedora:</strong> {{ gameItem.info.developer }}</p>
+      <p><strong>Developer:</strong> {{ gameItem.info.developer }}</p>
     {% endif %}
     {% if gameItem.info.release_year %}
-      <p><strong>Lançamento:</strong> {{ gameItem.info.release_year }}</p>
+      <p><strong>Release year:</strong> {{ gameItem.info.release_year }}</p>
     {% endif %}
     {% if gameItem.info.description %}
       <p>{{ gameItem.info.description }}</p>
@@ -23,15 +23,14 @@ layout: layout.njk
 {% endif %}
 
 <div style="background: #232; padding: 15px; margin-bottom: 20px; border-left: 4px solid #4caf50;">
-  <p><strong>Origens encontradas para {{ gameItem.stats.mapped }} de {{ gameItem.stats.total }} texturas ({{ gameItem.stats.percentage }}%)</strong></p>
+  <p><strong>Sources found for {{ gameItem.stats.mapped }} of {{ gameItem.stats.total }} textures ({{ gameItem.stats.percentage }}%)</strong></p>
   <div style="height: 10px; background: #333;">
     <div style="height: 100%; width: {{ gameItem.stats.percentage }}%; background: #4caf50;"></div>
   </div>
 </div>
 
-<!-- Bloco NOVO: Listagem de Bibliotecas -->
 {% if gameItem.usedLibraries | length > 0 %}
-  <h2>Bibliotecas Utilizadas neste Jogo</h2>
+  <h2>Libraries Used by This Game</h2>
   <ul style="margin-bottom: 20px;">
     {% for libName in gameItem.usedLibraries %}
       <li>
@@ -41,7 +40,7 @@ layout: layout.njk
   </ul>
 {% endif %}
 
-<h2>Mapas deste jogo</h2>
+<h2>Maps in This Game</h2>
 <ul>
   {% for map in collections.mapsList %}
     {% if map.game == gameItem.game %}
@@ -52,11 +51,11 @@ layout: layout.njk
         
         <span style="display: inline-block; margin-left: 15px; font-size: 0.9em;">
           {% if map.stats.percentage == 100 %}
-            ✅ Completado
+            ✅ Complete
           {% else %}
-            ⏳ {{ map.stats.percentage }}% documentado 
+            ⏳ {{ map.stats.percentage }}% documented
           {% endif %}
-          <span style="color: #888;">({{ map.stats.mapped }}/{{ map.stats.total }} texturas)</span>
+          <span style="color: #888;">({{ map.stats.mapped }}/{{ map.stats.total }} textures)</span>
         </span>
       </li>
     {% endif %}
