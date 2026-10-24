@@ -8,6 +8,8 @@
     "cstrike_pak_dir.vpk/materials/de_nuke/nukconcretewallb.vtf",
     "cstrike_pak_dir.vpk/materials/de_nuke/nukconcretewalla.vtf",
     "cstrike_pak_dir.vpk/materials/de_nuke/nukconcretewallc.vtf",
-    "cstrike_pak_dir.vpk/materials/models/props/de_nuke/clock.vtf"
+    "cstrike_pak_dir.vpk/materials/models/props/de_nuke/clock.vtf",
+    "cstrike_pak_dir.vpk/materials/de_nuke/nukventa.vtf",
+    "cstrike_pak_dir.vpk/materials/de_nuke/nukwindowe.vtf"
   ]
 }
