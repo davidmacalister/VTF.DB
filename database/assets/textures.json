@@ -56,5 +56,9 @@
 "cstrike_pak_dir.vpk/materials/cs_italy/pdoor1.vtf": "pdoor1.webp",
 "cstrike_pak_dir.vpk/materials/de_chateau/brickfdoorc.vtf": "brickfdoorc.webp",
 "cstrike_pak_dir.vpk/materials/models/cs_italy/wndb.vtf": "wndb.webp",
-"cstrike_pak_dir.vpk/materials/models/cs_italy/wnda.vtf": "wnda.webp"
+"cstrike_pak_dir.vpk/materials/models/cs_italy/wnda.vtf": "wnda.webp",
+"cstrike_pak_dir.vpk/materials/decals/prodplatea.vtf": "prodplatea.webp",
+"cstrike_pak_dir.vpk/materials/decals/prodventa.vtf": "prodventa.webp",
+"cstrike_pak_dir.vpk/materials/metal/prodventa.vtf": "metalprodventa.webp",
+"cstrike_pak_dir.vpk/materials/models/props/cs_assault/washer_box.vtf": "washer_box.webp"
 }

@@ -1,0 +1,8 @@
+{
+  "cover_image": "/img/maps/cs_assault.jpg",
+  "title": "Assault",
+  "filename": "cs_assault.bsp",
+  "textures": [
+    "cstrike_pak_dir.vpk/materials/models/props/cs_assault/washer_box.vtf"
+  ]
+}
