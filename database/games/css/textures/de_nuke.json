@@ -3,6 +3,11 @@
   "title": "Nuke",
   "filename": "de_nuke.bsp",
   "textures": [
-    "cstrike_pak_dir.vpk/materials/de_nuke/nuksign01.vtf"
+    "cstrike_pak_dir.vpk/materials/de_nuke/nuksign01.vtf",
+    "cstrike_pak_dir.vpk/materials/de_nuke/nukfloorc_detaile.vtf",
+    "cstrike_pak_dir.vpk/materials/de_nuke/nukconcretewallb.vtf",
+    "cstrike_pak_dir.vpk/materials/de_nuke/nukconcretewalla.vtf",
+    "cstrike_pak_dir.vpk/materials/de_nuke/nukconcretewallc.vtf",
+    "cstrike_pak_dir.vpk/materials/models/props/de_nuke/clock.vtf"
   ]
 }

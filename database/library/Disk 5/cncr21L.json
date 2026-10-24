@@ -1,0 +1,8 @@
+{
+  "original_path": "Signs/Large1600x1200Max/cncr21L.jpg",
+  "derived_textures": [
+    "cstrike_pak_dir.vpk/materials/de_nuke/nukconcretewallb.vtf",
+    "cstrike_pak_dir.vpk/materials/de_nuke/nukconcretewalla.vtf",
+    "cstrike_pak_dir.vpk/materials/de_nuke/nukconcretewallc.vtf"
+  ]
+}
