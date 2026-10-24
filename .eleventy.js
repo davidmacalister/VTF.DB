@@ -54,6 +54,8 @@ module.exports = function(eleventyConfig) {
             
             // --- NOVO: Descobrir quais bibliotecas este jogo usa ---
             let usedLibraries = new Set();
+            let mappedTextureCount = 0;
+            let totalTextureCount = 0;
             const texturesDir = path.join(gamesDir, gameName, 'textures');
             if (fs.existsSync(texturesDir)) {
                 const files = fs.readdirSync(texturesDir).filter(f => f.endsWith('.json'));
@@ -61,19 +63,29 @@ module.exports = function(eleventyConfig) {
                     const mapData = JSON.parse(fs.readFileSync(path.join(texturesDir, file), 'utf-8'));
                     if (mapData.textures) {
                         mapData.textures.forEach(t => {
+                            totalTextureCount++;
                             if (textureToLibrary.has(t)) {
                                 // Se a textura é conhecida, adiciona o nome da biblioteca à lista deste jogo
                                 usedLibraries.add(textureToLibrary.get(t));
+                                mappedTextureCount++;
                             }
                         });
                     }
                 }
             }
+            const texturePercentage = totalTextureCount === 0
+                ? 0
+                : Math.round((mappedTextureCount / totalTextureCount) * 100);
             
             return { 
                 game: gameName, 
                 info: info,
-                usedLibraries: Array.from(usedLibraries).sort() // Array ordenado alfabeticamente
+                usedLibraries: Array.from(usedLibraries).sort(), // Array ordenado alfabeticamente
+                stats: {
+                    mapped: mappedTextureCount,
+                    total: totalTextureCount,
+                    percentage: texturePercentage
+                }
             };
         });
     });

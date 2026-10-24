@@ -9,6 +9,13 @@ layout: layout.njk
 <h1>{{ mapItem.mapData.title }}</h1>
 <p>Jogo: {{ mapItem.game | upper }} | Arquivo: <code>{{ mapItem.mapData.filename }}</code></p>
 
+<div style="background: #232; padding: 15px; margin-bottom: 20px; border-left: 4px solid #4caf50;">
+  <p><strong>Origens encontradas para {{ mapItem.stats.mapped }} de {{ mapItem.stats.total }} texturas ({{ mapItem.stats.percentage }}%)</strong></p>
+  <div style="height: 10px; background: #333;">
+    <div style="height: 100%; width: {{ mapItem.stats.percentage }}%; background: #4caf50;"></div>
+  </div>
+</div>
+
 <img src="{{ mapItem.mapData.cover_image }}" alt="Capa de {{ mapItem.mapData.title }}">
 
 <!-- Loop agora envolve o título H2 e a Tabela inteira -->
