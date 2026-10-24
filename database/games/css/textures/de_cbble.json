@@ -5,6 +5,9 @@
   "textures": [
     "cstrike_pak_dir.vpk/materials/models/de_cbble/doorarch.vtf",
     "cstrike_pak_dir.vpk/materials/de_cbble/door011.vtf",
-    "cstrike_pak_dir.vpk/materials/de_cbble/door010.vtf"
+    "cstrike_pak_dir.vpk/materials/de_cbble/door010.vtf",
+    "cstrike_pak_dir.vpk/materials/models/de_cbble/wnddouble.vtf",
+    "cstrike_pak_dir.vpk/materials/models/de_cbble/wndsingle.vtf",
+    "cstrike_pak_dir.vpk/materials/models/de_cbble/wndarch.vtf"
   ]
 }

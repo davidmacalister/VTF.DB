@@ -3,6 +3,7 @@
   "title": "Piranese",
   "filename": "de_piranese.bsp",
   "textures": [
-    "cstrike_pak_dir.vpk/materials/de_piranese/wooddoor01.vtf"
+    "cstrike_pak_dir.vpk/materials/de_piranese/wooddoor01.vtf",
+    "cstrike_pak_dir.vpk/materials/de_piranese/walltrim01.vtf"
   ]
 }

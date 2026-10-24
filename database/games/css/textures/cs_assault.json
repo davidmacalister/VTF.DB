@@ -3,6 +3,9 @@
   "title": "Assault",
   "filename": "cs_assault.bsp",
   "textures": [
-    "cstrike_pak_dir.vpk/materials/models/props/cs_assault/washer_box.vtf"
+    "cstrike_pak_dir.vpk/materials/models/props/cs_assault/washer_box.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_assault/assault_dumping_decal02.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_assault/assault_parking_decal01.vtf",
+    "cstrike_pak_dir.vpk/materials/cs_assault/assault_skybox_building04.vtf"
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "cover_image": "/img/maps/de_nuke.jpg",
+  "title": "Nuke",
+  "filename": "de_nuke.bsp",
+  "textures": [
+    "cstrike_pak_dir.vpk/materials/de_nuke/nuksign01.vtf"
+  ]
+}

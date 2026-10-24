@@ -59,5 +59,22 @@
 "cstrike_pak_dir.vpk/materials/decals/prodplatea.vtf": "prodplatea.webp",
 "cstrike_pak_dir.vpk/materials/decals/prodventa.vtf": "prodventa.webp",
 "cstrike_pak_dir.vpk/materials/metal/prodventa.vtf": "metalprodventa.webp",
-"cstrike_pak_dir.vpk/materials/models/props/cs_assault/washer_box.vtf": "washer_box.webp"
+"cstrike_pak_dir.vpk/materials/models/props/cs_assault/washer_box.vtf": "washer_box.webp",
+"cstrike_pak_dir.vpk/materials/cs_assault/assault_dumping_decal02.vtf": "assault_dumping_decal02.webp",
+"cstrike_pak_dir.vpk/materials/de_nuke/nuksign01.vtf": "nuksign01.webp",
+"cstrike_pak_dir.vpk/materials/cs_assault/assault_parking_decal01.vtf": "assault_parking_decal01.webp",
+"cstrike_pak_dir.vpk/materials/de_piranese/walltrim01.vtf": "walltrim01.webp",
+"cstrike_pak_dir.vpk/materials/models/de_cbble/wnddouble.vtf": "wnddouble.webp",
+"cstrike_pak_dir.vpk/materials/models/de_cbble/wndsingle.vtf": "wndsingle.webp",
+"cstrike_pak_dir.vpk/materials/de_tides/tiddecwndw01.vtf": "tiddecwndw01.webp",
+"cstrike_pak_dir.vpk/materials/models/de_cbble/wndarch.vtf": "wndarch.webp",
+"cstrike_pak_dir.vpk/materials/buildings/gen25.vtf": "gen25.webp",
+"cstrike_pak_dir.vpk/materials/buildings/gen24.vtf": "gen24.webp",
+"cstrike_pak_dir.vpk/materials/buildings/gen23.vtf": "gen23.webp",
+"cstrike_pak_dir.vpk/materials/buildings/gen22.vtf": "gen22.webp",
+"cstrike_pak_dir.vpk/materials/buildings/gen21.vtf": "gen21.webp",
+"cstrike_pak_dir.vpk/materials/buildings/gen20.vtf": "gen20.webp",
+"cstrike_pak_dir.vpk/materials/cs_assault/assault_skybox_building04.vtf": "assault_skybox_building04.webp",
+"cstrike_pak_dir.vpk/materials/buildings/gen19.vtf": "gen19.webp",
+"cstrike_pak_dir.vpk/materials/buildings/gen18.vtf": "gen18.webp"
 }

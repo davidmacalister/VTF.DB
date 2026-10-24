@@ -1,0 +1,8 @@
+{
+  "original_path": "Signs/Large1600x1200Max/wal107L.jpg",
+  "derived_textures": [
+    "cstrike_pak_dir.vpk/materials/models/de_cbble/wnddouble.vtf",
+    "cstrike_pak_dir.vpk/materials/models/de_cbble/wndsingle.vtf",
+    "cstrike_pak_dir.vpk/materials/de_tides/tiddecwndw01.vtf"
+  ]
+}
