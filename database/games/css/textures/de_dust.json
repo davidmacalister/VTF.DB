@@ -2,6 +2,8 @@
   "cover_image": "/img/maps/de_dust.jpg",
   "title": "Dust",
   "filename": "de_dust.bsp",
+  "before": "cs_chateau",
+  "next": "de_inferno",
   "textures": [
     "cstrike_pak_dir.vpk/materials/models/de_dust/windows/window_4x4_square_flat.vtf",
     "cstrike_pak_dir.vpk/materials/de_dust/door011.vtf"

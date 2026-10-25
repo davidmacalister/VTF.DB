@@ -2,6 +2,8 @@
   "cover_image": "/img/maps/cs_havana.jpg",
   "title": "Havana",
   "filename": "cs_havana.bsp",
+  "before": "cs_assault",
+  "next": "cs_italy",
   "textures": [
     "cstrike_pak_dir.vpk/materials/cs_havana/bldc.vtf",
     "cstrike_pak_dir.vpk/materials/cs_havana/bldf.vtf",

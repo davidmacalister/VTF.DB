@@ -2,6 +2,8 @@
   "cover_image": "/img/maps/de_inferno.jpg",
   "title": "Inferno",
   "filename": "de_inferno.bsp",
+  "before": "de_inferno",
+  "next": "de_nuke",
   "textures": [
     "cstrike_pak_dir.vpk/materials/models/props/de_inferno/picture1.vtf",
     "cstrike_pak_dir.vpk/materials/models/props/de_inferno/picture2.vtf",

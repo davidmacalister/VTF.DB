@@ -156,6 +156,28 @@ module.exports = function(eleventyConfig) {
                 }
             }
         }
+
+        for (const map of allMaps) {
+            for (const direction of ['before', 'next']) {
+                const targetMapId = map.mapData[direction];
+                if (!targetMapId) continue;
+
+                const targetMap = allMaps.find(candidate =>
+                    candidate.game === map.game && candidate.mapId === targetMapId
+                );
+                if (!targetMap) {
+                    throw new Error(
+                        `Map "${map.game}/${map.mapId}" has an invalid "${direction}" target: "${targetMapId}".`
+                    );
+                }
+                map[`${direction}Map`] = {
+                    game: targetMap.game,
+                    mapId: targetMap.mapId,
+                    title: targetMap.mapData.title
+                };
+            }
+        }
+
         return allMaps;
     });
     
