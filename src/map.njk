@@ -62,8 +62,43 @@ layout: layout.njk
           {% if not foundOrigin %}
             <em>No source mapped.</em>
           {% endif %}
+
+          {% for contributor in mapItem.contributors %}
+            {% if texturePath in contributor.textures %}
+              <br><strong>Found by:</strong> {{ contributor.name }}
+            {% endif %}
+          {% endfor %}
         </td>
       </tr>
     </tbody>
   </table>
 {% endfor %}
+
+<section>
+  <h2>Credits</h2>
+  {% if mapItem.contributors | length %}
+    {% for contributor in mapItem.contributors %}
+      <h3>{{ contributor.name }}</h3>
+      <ul>
+        {% for texture in contributor.textures %}
+          <li><code>{{ texture }}</code></li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  {% else %}
+    <p>No contributors credited yet.</p>
+  {% endif %}
+</section>
+
+<section>
+  <h2>References</h2>
+  {% if creditsData.references | length %}
+    <ol>
+      {% for reference in creditsData.references %}
+        <li><a href="{{ reference.url }}">{{ reference.title }}</a></li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p>No references added yet.</p>
+  {% endif %}
+</section>

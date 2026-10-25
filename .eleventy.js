@@ -4,6 +4,11 @@ const path = require('path');
 module.exports = function(eleventyConfig) {
     eleventyConfig.addWatchTarget("./database/");
     const dbPath = path.join(__dirname, 'database');
+    const creditsPath = path.join(dbPath, 'assets/credits.json');
+    const creditsData = JSON.parse(fs.readFileSync(creditsPath, 'utf-8'));
+    creditsData.references = creditsData.references.filter(reference => reference.title && reference.url);
+
+    eleventyConfig.addGlobalData("creditsData", creditsData);
     
     eleventyConfig.addGlobalData("textureCatalog", function() {
         const catalogPath = path.join(dbPath, 'assets/textures.json');
@@ -119,11 +124,16 @@ module.exports = function(eleventyConfig) {
                     }
                     
                     const percentage = totalCount === 0 ? 0 : Math.round((mappedCount / totalCount) * 100);
+                    const contributors = creditsData.credits.map(credit => ({
+                        name: credit.name,
+                        textures: credit.textures.filter(texture => data.textures && data.textures.includes(texture))
+                    })).filter(credit => credit.textures.length > 0);
                     
                     allMaps.push({
                         game: game,
                         mapId: file.replace('.json', ''),
                                  mapData: data,
+                                 contributors: contributors,
                                  stats: {
                                      total: totalCount,
                                      mapped: mappedCount,
