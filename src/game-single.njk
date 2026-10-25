@@ -34,7 +34,7 @@ layout: layout.njk
   <ul style="margin-bottom: 20px;">
     {% for libName in gameItem.usedLibraries %}
       <li>
-        <a href="/library/{{ libName | slugify }}/">{{ libName }}</a>
+        <a href="{{ ('/library/' + (libName | slugify) + '/') | url }}">{{ libName }}</a>
       </li>
     {% endfor %}
   </ul>
@@ -45,7 +45,7 @@ layout: layout.njk
   {% for map in collections.mapsList %}
     {% if map.game == gameItem.game %}
       <li style="margin-bottom: 10px;">
-        <a href="/games/{{ map.game }}/{{ map.mapId }}/">
+        <a href="{{ ('/games/' + map.game + '/' + map.mapId + '/') | url }}">
           <strong>{{ map.mapData.title }}</strong> (<code>{{ map.mapData.filename }}</code>)
         </a> 
         

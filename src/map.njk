@@ -16,7 +16,7 @@ layout: layout.njk
   </div>
 </div>
 
-<img src="{{ mapItem.mapData.cover_image }}" alt="Capa de {{ mapItem.mapData.title }}">
+<img src="{{ mapItem.mapData.cover_image | url }}" alt="Capa de {{ mapItem.mapData.title }}">
 
 {% for texturePath in mapItem.mapData.textures %}
   
@@ -35,7 +35,7 @@ layout: layout.njk
           {% set manualImage = textureCatalog[texturePath] %}
           
           {% if manualImage %}
-            <img src="/img/{{ manualImage }}" alt="Modified texture">
+            <img src="{{ ('/img/' + manualImage) | url }}" alt="Modified texture">
           {% else %}
             <div style="padding: 10px; border: 1px dashed red; margin-bottom: 5px;">
               🚫 Image not linked
@@ -51,9 +51,9 @@ layout: layout.njk
           {% for lib in collections.librariesList %}
             {% for img in lib.images %}
               {% if texturePath in img.imageData.derived_textures %}
-                <img src="/img/{{ img.imageId }}.jpg" alt="Source photo">
+                <img src="{{ ('/img/' + img.imageId + '.jpg') | url }}" alt="Source photo">
                 <code>{{ img.imageData.original_path }}</code><br>
-                <a href="/library/{{ lib.libraryName | slugify }}/">{{ lib.libraryName }}</a>
+                <a href="{{ ('/library/' + (lib.libraryName | slugify) + '/') | url }}">{{ lib.libraryName }}</a>
                 {% set foundOrigin = true %}
               {% endif %}
             {% endfor %}

@@ -8,7 +8,7 @@ title: Games
 <ul>
   {% for item in collections.gamesList %}
     <li>
-      <a href="/games/{{ item.game }}/">{{ item.game | upper }}</a>
+      <a href="{{ ('/games/' + item.game + '/') | url }}">{{ item.game | upper }}</a>
     </li>
   {% else %}
     <li>No games found in the database.</li>

@@ -36,7 +36,7 @@ layout: layout.njk
     <tbody>
       <tr>
         <td>
-          <img src="/img/{{ img.imageId }}.jpg" alt="Source photo">
+          <img src="{{ ('/img/' + img.imageId + '.jpg') | url }}" alt="Source photo">
           <code>{{ img.imageData.original_path }}</code>
         </td>
 
@@ -47,7 +47,7 @@ layout: layout.njk
               {% set manualImage = textureCatalog[texturePath] %}
               
               {% if manualImage %}
-                <img src="/img/{{ manualImage }}" alt="Texture">
+                <img src="{{ ('/img/' + manualImage) | url }}" alt="Texture">
               {% else %}
                 <div style="padding: 10px; border: 1px dashed red; margin-bottom: 5px; max-width: 200px;">
                   🚫 Image not linked
@@ -61,7 +61,7 @@ layout: layout.njk
               {% for map in collections.mapsList %}
                 {% if texturePath in map.mapData.textures %}
                   <li>
-                    <a href="/games/{{ map.game }}/{{ map.mapId }}/">
+                    <a href="{{ ('/games/' + map.game + '/' + map.mapId + '/') | url }}">
                       {{ map.game | upper }} - {{ map.mapData.title }}
                     </a>
                   </li>

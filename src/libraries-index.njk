@@ -8,7 +8,7 @@ title: Libraries
 <ul>
   {% for lib in collections.librariesList %}
     <li>
-      <a href="/library/{{ lib.libraryName | slugify }}/">{{ lib.libraryName }}</a>
+      <a href="{{ ('/library/' + (lib.libraryName | slugify) + '/') | url }}">{{ lib.libraryName }}</a>
     </li>
   {% else %}
     <li>No libraries found in the database.</li>
