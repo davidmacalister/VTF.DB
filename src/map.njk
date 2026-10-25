@@ -92,9 +92,9 @@ layout: layout.njk
 
 <section>
   <h2>References</h2>
-  {% if creditsData.references | length %}
+  {% if referencesData | length %}
     <ol>
-      {% for reference in creditsData.references %}
+      {% for reference in referencesData %}
         <li><a href="{{ reference.url }}">{{ reference.title }}</a></li>
       {% endfor %}
     </ol>

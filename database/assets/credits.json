@@ -15,23 +15,5 @@
         "hl2_textures_dir.vpk/materials/decals/decalmetalgrate019a.vtf"
       ]
     }
-  ],
-  "references": [
-    {
-      "title": "",
-      "url": ""
-    }
-  ],
-  "template": {
-    "credit": {
-      "name": "Nome da pessoa",
-      "textures": [
-        "hl2_textures_dir.vpk/materials/wood/woodwall008a.vtf"
-      ]
-    },
-    "reference": {
-      "title": "Nome da página ou fonte",
-      "url": "https://example.com/"
-    }
-  }
+  ]
 }

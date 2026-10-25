@@ -4,15 +4,18 @@ const path = require('path');
 module.exports = function(eleventyConfig) {
     const dbPath = path.join(__dirname, 'database');
     const creditsPath = path.join(dbPath, 'assets/credits.json');
+    const referencesPath = path.join(dbPath, 'assets/references.json');
     eleventyConfig.addWatchTarget("./database/**/*.json");
 
     function loadCreditsData() {
-        const creditsData = JSON.parse(fs.readFileSync(creditsPath, 'utf-8'));
-        creditsData.references = creditsData.references.filter(reference => reference.title && reference.url);
-        return creditsData;
+        return JSON.parse(fs.readFileSync(creditsPath, 'utf-8'));
     }
 
     eleventyConfig.addGlobalData("creditsData", loadCreditsData);
+    eleventyConfig.addGlobalData("referencesData", function() {
+        return JSON.parse(fs.readFileSync(referencesPath, 'utf-8'))
+            .filter(reference => reference.title && reference.url);
+    });
     
     eleventyConfig.addGlobalData("textureCatalog", function() {
         const catalogPath = path.join(dbPath, 'assets/textures.json');
