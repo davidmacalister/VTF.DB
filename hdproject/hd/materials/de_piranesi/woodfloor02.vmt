@@ -1,0 +1,25 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_piranesi/woodfloor02"
+	"$surfaceprop" "wood"
+ 	"$envmap" "env_cubemap"
+	"$envmapcontrast" "1"
+	"$envmapmask" "de_piranesi/woodfloor02_spec"
+	"%keywords" "cstrike"
+	
+	"$texscale" "2"
+    "$baseTextureOffset" "[0.5 0.5]"
+	
+"Proxies"
+
+      {
+       "TextureTransform"
+       {
+    "translateVar" "$baseTextureOffset"
+    "scaleVar"     "$texscale"
+    "resultVar"    "$baseTextureTransform"
+            }
+      }
+
+}
+}
