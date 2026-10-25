@@ -1,0 +1,11 @@
+{
+  "cover_image": "/img/maps/de_tides.jpg",
+  "title": "Campanha",
+  "filename": "de_tides.bsp",
+  "textures": [
+    "hl2_textures_dir.vpk/materials/brick/brickfloor001a.vtf",
+    "hl2_textures_dir.vpk/materials/metal/metalgrate002a.vtf",
+    "hl2_textures_dir.vpk/materials/wood/woodshelf001a.vtf",
+    "hl2_textures_dir.vpk/materials/wood/woodshutters001a.vtf"
+  ]
+}

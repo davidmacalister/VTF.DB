@@ -135,5 +135,11 @@
 "cstrike_pak_dir.vpk/materials/de_piranesi/{pi_tapestry3.vtf": "{pi_tapestry3.webp",
 "cstrike_pak_dir.vpk/materials/de_tides/tiddecclosed.vtf": "tiddecclosed.webp",
 "cstrike_pak_dir.vpk/materials/de_chateau/tapa.vtf": "tapa.webp",
-"cstrike_pak_dir.vpk/materials/de_chateau/tapb.vtf": "tapb.webp"
+"cstrike_pak_dir.vpk/materials/de_chateau/tapb.vtf": "tapb.webp",
+"cstrike_pak_dir.vpk/materials/de_piranesi/woodfloor01.vtf": "woodfloor01.webp",
+"cstrike_pak_dir.vpk/materials/de_piranesi/woodfloor02.vtf": "woodfloor02.webp",
+"hl2_textures_dir.vpk/materials/brick/brickfloor001a.vtf": "brickfloor001a.webp",
+"hl2_textures_dir.vpk/materials/metal/metalgrate002a.vtf": "metalgrate002a.webp",
+"hl2_textures_dir.vpk/materials/wood/woodshelf001a.vtf": "woodshelf001a.webp",
+"hl2_textures_dir.vpk/materials/wood/woodshutters001a.vtf": "woodshutters001a.webp"
 }
