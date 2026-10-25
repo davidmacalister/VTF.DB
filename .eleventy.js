@@ -6,11 +6,11 @@ module.exports = function(eleventyConfig) {
     const creditsPath = path.join(dbPath, 'assets/credits.json');
     const referencesPath = path.join(dbPath, 'assets/references.json');
     eleventyConfig.addWatchTarget("./database/**/*.json");
-
+    
     function loadCreditsData() {
         return JSON.parse(fs.readFileSync(creditsPath, 'utf-8'));
     }
-
+    
     eleventyConfig.addGlobalData("creditsData", loadCreditsData);
     eleventyConfig.addGlobalData("referencesData", function() {
         const referencesData = JSON.parse(fs.readFileSync(referencesPath, 'utf-8'));
@@ -28,7 +28,7 @@ module.exports = function(eleventyConfig) {
         return {};
     });
     
-    // --- NOVO: Dicionário mapeando cada Textura para sua respectiva Biblioteca ---
+    // --- Dicionário mapeando cada Textura para sua respectiva Biblioteca ---
     const textureToLibrary = new Map();
     const libDir = path.join(dbPath, 'library');
     
@@ -38,15 +38,21 @@ module.exports = function(eleventyConfig) {
             const pkgDir = path.join(libDir, pkg);
             if (!fs.statSync(pkgDir).isDirectory()) continue;
             
-            // Lê todas as fotos, ignorando o info.json
-            const files = fs.readdirSync(pkgDir).filter(f => f.endsWith('.json') && f !== 'info.json');
-            for (const file of files) {
-                const data = JSON.parse(fs.readFileSync(path.join(pkgDir, file), 'utf-8'));
-                if (data.derived_textures) {
-                    data.derived_textures.forEach(texture => {
-                        // Registra: "cstrike/materials/brick/havana.vtf" pertence ao "Disk 7"
-                        textureToLibrary.set(texture, pkg); 
-                    });
+            // NOVO: Define o caminho da pasta assets dentro do pacote
+            const assetsDir = path.join(pkgDir, 'data');
+            
+            // Verifica se a pasta assets existe antes de tentar ler
+            if (fs.existsSync(assetsDir)) {
+                // Lê todas as fotos de dentro da pasta assets
+                const files = fs.readdirSync(assetsDir).filter(f => f.endsWith('.json'));
+                for (const file of files) {
+                    const data = JSON.parse(fs.readFileSync(path.join(assetsDir, file), 'utf-8'));
+                    if (data.derived_textures) {
+                        data.derived_textures.forEach(texture => {
+                            // Registra: "cstrike/materials/brick/havana.vtf" pertence ao "Disk 7"
+                            textureToLibrary.set(texture, pkg); 
+                        });
+                    }
                 }
             }
         }
@@ -67,7 +73,6 @@ module.exports = function(eleventyConfig) {
                 info = JSON.parse(fs.readFileSync(infoPath, 'utf-8'));
             }
             
-            // --- NOVO: Descobrir quais bibliotecas este jogo usa ---
             let usedLibraries = new Set();
             let mappedTextureCount = 0;
             let totalTextureCount = 0;
@@ -80,7 +85,6 @@ module.exports = function(eleventyConfig) {
                         mapData.textures.forEach(t => {
                             totalTextureCount++;
                             if (textureToLibrary.has(t)) {
-                                // Se a textura é conhecida, adiciona o nome da biblioteca à lista deste jogo
                                 usedLibraries.add(textureToLibrary.get(t));
                                 mappedTextureCount++;
                             }
@@ -89,18 +93,18 @@ module.exports = function(eleventyConfig) {
                 }
             }
             const texturePercentage = totalTextureCount === 0
-                ? 0
-                : Math.round((mappedTextureCount / totalTextureCount) * 100);
+            ? 0
+            : Math.round((mappedTextureCount / totalTextureCount) * 100);
             
             return { 
                 game: gameName, 
                 info: info,
-                usedLibraries: Array.from(usedLibraries).sort(), // Array ordenado alfabeticamente
-                stats: {
-                    mapped: mappedTextureCount,
-                    total: totalTextureCount,
-                    percentage: texturePercentage
-                }
+                usedLibraries: Array.from(usedLibraries).sort(),
+               stats: {
+                   mapped: mappedTextureCount,
+               total: totalTextureCount,
+               percentage: texturePercentage
+               }
             };
         });
     });
@@ -126,7 +130,6 @@ module.exports = function(eleventyConfig) {
                     
                     if (totalCount > 0) {
                         data.textures.forEach(t => {
-                            // Usa o Map para checar se a textura existe
                             if (textureToLibrary.has(t)) {
                                 mappedCount++;
                             }
@@ -166,21 +169,28 @@ module.exports = function(eleventyConfig) {
             const pkgDir = path.join(libDir, pkg);
             if (!fs.statSync(pkgDir).isDirectory()) continue;
             
+            // Continua lendo o info.json da raiz do pacote
             let info = {};
             const infoPath = path.join(pkgDir, 'info.json');
             if (fs.existsSync(infoPath)) {
                 info = JSON.parse(fs.readFileSync(infoPath, 'utf-8'));
             }
             
-            const files = fs.readdirSync(pkgDir).filter(f => f.endsWith('.json') && f !== 'info.json');
+            // NOVO: Lê as imagens a partir da pasta assets
+            const assetsDir = path.join(pkgDir, 'data');
             let originImages = [];
             
-            for (const file of files) {
-                const fileContent = fs.readFileSync(path.join(pkgDir, file), 'utf-8');
-                originImages.push({
-                    imageId: file.replace('.json', ''),
-                                  imageData: JSON.parse(fileContent)
-                });
+            if (fs.existsSync(assetsDir)) {
+                // Como já está em assets/, não precisamos mais filtrar 'info.json'
+                const files = fs.readdirSync(assetsDir).filter(f => f.endsWith('.json'));
+                
+                for (const file of files) {
+                    const fileContent = fs.readFileSync(path.join(assetsDir, file), 'utf-8');
+                    originImages.push({
+                        imageId: file.replace('.json', ''),
+                                      imageData: JSON.parse(fileContent)
+                    });
+                }
             }
             
             allLibraries.push({
