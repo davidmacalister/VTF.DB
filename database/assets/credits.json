@@ -3,7 +3,16 @@
     {
       "name": "Bun",
       "textures": [
-        "hl2_textures_dir.vpk/materials/wood/woodwall008a.vtf"
+        "hl2_textures_dir.vpk/materials/wood/woodwall008a.vtf",
+        "hl2_textures_dir.vpk/materials/brick/brickwall017a.vtf",
+        "hl2_textures_dir.vpk/materials/building_template/building_template012l.vtf",
+        "hl2_textures_dir.vpk/materials/decals/decalmetalgrate014a.vtf"
+      ]
+    },
+    {
+      "name": "Slartibarty",
+      "textures": [
+        "hl2_textures_dir.vpk/materials/decals/decalmetalgrate019a.vtf"
       ]
     }
   ],
