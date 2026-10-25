@@ -6,7 +6,12 @@
         "hl2_textures_dir.vpk/materials/wood/woodwall008a.vtf",
         "hl2_textures_dir.vpk/materials/brick/brickwall017a.vtf",
         "hl2_textures_dir.vpk/materials/building_template/building_template012l.vtf",
-        "hl2_textures_dir.vpk/materials/decals/decalmetalgrate014a.vtf"
+        "hl2_textures_dir.vpk/materials/decals/decalmetalgrate014a.vtf",
+        "hl2_textures_dir.vpk/materials/brick/brickfloor001a.vtf",
+        "hl2_textures_dir.vpk/materials/metal/metalgrate002a.vtf",
+        "hl2_textures_dir.vpk/materials/wood/woodshelf001a.vtf",
+        "hl2_textures_dir.vpk/materials/wood/woodshutters001a.vtf",
+        "hl2_textures_dir.vpk/materials/decals/decalmetalmanhole004a.vtf"
       ]
     },
     {
@@ -14,6 +19,60 @@
       "textures": [
         "hl2_textures_dir.vpk/materials/decals/decalmetalgrate019a.vtf"
       ]
+    },
+    {
+      "name": "Liblung",
+      "textures": [
+        "cstrike_pak_dir.vpk/materials/models/props/cs_assault/washer_box.vtf"
+      ]
+    },
+    {
+      "name": "Mehaniq",
+      "textures": [
+        "cstrike_pak_dir.vpk/materials/decals/prodplatea.vtf",
+        "cstrike_pak_dir.vpk/materials/decals/prodventa.vtf",
+        "cstrike_pak_dir.vpk/materials/de_nuke/nuksign01.vtf",
+        "cstrike_pak_dir.vpk/materials/de_nuke/nukfloorc_detaile.vtf",
+        "cstrike_pak_dir.vpk/materials/building/antn03.vtf",
+        "cstrike_pak_dir.vpk/materials/building/antn04.vtf",
+        "cstrike_pak_dir.vpk/materials/building/antn02.vtf",
+        "cstrike_pak_dir.vpk/materials/building/antn01.vtf",
+        "cstrike_pak_dir.vpk/materials/de_tides/tiddecwndw01.vtf",
+        "cstrike_pak_dir.vpk/materials/de_nuke/nukwindowe.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen12.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen08.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen09.vtf",
+        "cstrike_pak_dir.vpk/materials/cs_havana/gen10.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen23.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen22.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen15.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen24.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen01.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen07.vtf",
+        "cstrike_pak_dir.vpk/materials/cs_assault/assault_skybox_building02.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen11.vtf",
+        "cstrike_pak_dir.vpk/materials/cs_assault/assault_skybox_building01.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen14.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen25.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen20.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen17.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen16.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen18.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen19.vtf",
+        "cstrike_pak_dir.vpk/materials/buildings/gen21.vtf",
+        "cstrike_pak_dir.vpk/materials/cs_havana/gen06.vtf",
+        "cstrike_pak_dir.vpk/materials/cs_havana/gen05.vtf",
+        "cstrike_pak_dir.vpk/materials/cs_havana/gen04.vtf",
+        "cstrike_pak_dir.vpk/materials/cs_havana/gen02.vtf",
+        "cstrike_pak_dir.vpk/materials/cs_assault/assault_skybox_building03.vtf",
+        "cstrike_pak_dir.vpk/materials/cs_assault/assault_parking_decal01.vtf"
+      ]
+    },
+    {
+      "name": "KaPA",
+      "textures": [
+        "cstrike_pak_dir.vpk/materials/cs_assault/assault_door1.vtf"
+      ]
     }
-  ]
+  ] 
 }

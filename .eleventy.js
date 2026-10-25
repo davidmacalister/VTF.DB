@@ -13,8 +13,11 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addGlobalData("creditsData", loadCreditsData);
     eleventyConfig.addGlobalData("referencesData", function() {
-        return JSON.parse(fs.readFileSync(referencesPath, 'utf-8'))
-            .filter(reference => reference.title && reference.url);
+        const referencesData = JSON.parse(fs.readFileSync(referencesPath, 'utf-8'));
+        if (!Array.isArray(referencesData.references)) {
+            throw new TypeError('database/assets/references.json must contain a "references" array.');
+        }
+        return referencesData.references.filter(reference => reference.title && reference.url);
     });
     
     eleventyConfig.addGlobalData("textureCatalog", function() {
