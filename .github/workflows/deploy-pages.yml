@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+      - remake
   pull_request:
     branches:
       - main
+      - remake
   workflow_dispatch:
 
 permissions:
