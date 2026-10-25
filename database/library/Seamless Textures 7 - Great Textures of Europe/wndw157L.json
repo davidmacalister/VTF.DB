@@ -1,6 +1,7 @@
 {
   "original_path": "Textures/Large/wndw157L.jpg",
   "derived_textures": [
-    "cstrike_pak_dir.vpk/materials/models/de_dust/windows/window_4x4_square_flat.vtf"
+    "cstrike_pak_dir.vpk/materials/models/de_dust/windows/window_4x4_square_flat.vtf",
+    "hl2_textures_dir.vpk/materials/wood/woodshutters004a.vtf"
   ]
 }

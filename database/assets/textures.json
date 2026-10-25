@@ -141,5 +141,10 @@
 "hl2_textures_dir.vpk/materials/brick/brickfloor001a.vtf": "brickfloor001a.webp",
 "hl2_textures_dir.vpk/materials/metal/metalgrate002a.vtf": "metalgrate002a.webp",
 "hl2_textures_dir.vpk/materials/wood/woodshelf001a.vtf": "woodshelf001a.webp",
-"hl2_textures_dir.vpk/materials/wood/woodshutters001a.vtf": "woodshutters001a.webp"
+"hl2_textures_dir.vpk/materials/wood/woodshutters001a.vtf": "woodshutters001a.webp",
+"hl2_textures_dir.vpk/materials/wood/woodwall008a.vtf": "woodwall008a.webp",
+"hl2_textures_dir.vpk/materials/decals/decalmetalgrate019a.vtf": "decalmetalgrate019a.webp",
+"hl2_textures_dir.vpk/materials/decals/decalmetalgrate014a.vtf": "decalmetalgrate014a.webp",
+"hl2_textures_dir.vpk/materials/brick/brickwall017a.vtf": "brickwall017a.webp",
+"hl2_textures_dir.vpk/materials/building_template/building_template012l.vtf": "building_template012l.webp"
 }

@@ -3,6 +3,7 @@
   "derived_textures": [
     "cstrike_pak_dir.vpk/materials/de_cbble/door010.vtf",
     "cstrike_pak_dir.vpk/materials/de_chateau/brickfdoorc01.vtf",
-    "cstrike_pak_dir.vpk/materials/de_chateau/brickfdoorc.vtf"
+    "cstrike_pak_dir.vpk/materials/de_chateau/brickfdoorc.vtf",
+    "hl2_textures_dir.vpk/materials/building_template/building_template012l.vtf"
   ]
 }
