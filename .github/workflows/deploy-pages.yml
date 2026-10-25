@@ -44,7 +44,7 @@ jobs:
       - name: Build site
         run: npm run build
         env:
-          ELEVENTY_PATH_PREFIX: ${{ steps.pages.outputs.base_path }}/
+          ELEVENTY_PATH_PREFIX: /
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
