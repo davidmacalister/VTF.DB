@@ -6,7 +6,47 @@ pagination:
 permalink: "/library/{{ libItem.libraryName | slugify }}/"
 layout: layout.njk
 ---
+<style>
+  /* CSS Corrigido: Fiel à referência, sem contornos ou caixas de fundo na linha */
+  .info-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .info-thumb {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    background-color: #333;
+    /* Removido o border-radius para deixar os cantos vivos/quadrados */
+  }
+  .info-badge {
+    background-color: #202430;
+    color: #6392d8;
+    padding: 4px 8px;
+    border-radius: 4px; /* Leve arredondamento apenas no fundo azul do texto, como na referência */
+    font-family: monospace;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+  a.info-badge:hover {
+    background-color: #2a3040;
+    color: #84aef0;
+  }
+  .info-text {
+    color: #d19a66;
+    font-size: 0.9em;
+    font-family: sans-serif;
+  }
+</style>
+
 <h1>Library: {{ libItem.libraryName }}</h1>
+
+{% if libItem.cover %}
+  <img src="{{ libItem.cover | url }}" alt="Cover of {{ libItem.libraryName }}" style="max-width: 300px; margin-bottom: 20px;">
+{% endif %}
 
 {% if libItem.info %}
   <div style="background: #223; padding: 15px; margin-bottom: 20px; border-left: 4px solid #4db8ff;">
@@ -19,6 +59,12 @@ layout: layout.njk
     {% if libItem.info.description %}
       <p><em>{{ libItem.info.description }}</em></p>
     {% endif %}
+  </div>
+{% endif %}
+
+{% if libItem.descriptionHtml %}
+  <div style="margin-bottom: 30px; line-height: 1.6; font-size: 1.05em; color: #ddd; border-bottom: 1px solid #444; padding-bottom: 20px;">
+    {{ libItem.descriptionHtml | safe }}
   </div>
 {% endif %}
 
@@ -35,41 +81,46 @@ layout: layout.njk
     </thead>
     <tbody>
       <tr>
-        <td>
-          <!-- ALTERADO PARA /img/src/ -->
-          <img src="{{ ('/img/src/' + img.imageId + '.jpg') | url }}" alt="Source photo">
-          <code>{{ img.imageData.original_path }}</code>
+        <td style="vertical-align: top;">
+          <img src="{{ ('/img/src/' + img.imageId + '.jpg') | url }}" alt="Source photo" style="max-width: 250px; margin-bottom: 10px;">
+          <br><code>{{ img.imageData.original_path }}</code>
         </td>
 
-        <td>
+        <td style="vertical-align: top;">
           {% for texturePath in img.imageData.derived_textures %}
-            <div style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #333;">
+            <div style="margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px solid #333;">
               
               {% set manualImage = textureCatalog[texturePath] %}
               
               {% if manualImage %}
-                <!-- ALTERADO PARA /img/tex/ -->
-                <img src="{{ ('/img/tex/' + manualImage) | url }}" alt="Texture">
+                <img src="{{ ('/img/tex/' + manualImage) | url }}" alt="Texture" style="max-width: 250px;">
               {% else %}
                 <div style="padding: 10px; border: 1px dashed red; margin-bottom: 5px; max-width: 200px;">
                   🚫 Image not linked
                 </div>
               {% endif %}
               
-              <code>{{ texturePath }}</code><br>
-              
-              <strong>Used in:</strong>
-              <ul>
               {% for map in collections.mapsList %}
                 {% if texturePath in map.mapData.textures %}
-                  <li>
-                    <a href="{{ ('/games/' + map.game + '/' + map.mapId + '/') | url }}">
+                  <div class="info-row">
+                    
+                    {% if map.mapData.cover_image %}
+                      <img src="{{ map.mapData.cover_image | url }}" alt="Map Cover" class="info-thumb">
+                    {% else %}
+                      <div class="info-thumb"></div>
+                    {% endif %}
+                    
+                    <a href="{{ ('/games/' + map.game + '/' + map.mapId + '/') | url }}" class="info-badge">
                       {{ map.game | upper }} - {{ map.mapData.title }}
                     </a>
-                  </li>
+                    
+                    <span class="info-text">image:</span>
+                    
+                    <span class="info-badge">{{ texturePath.split('/') | last }}</span>
+                  </div>
                 {% endif %}
               {% endfor %}
-              </ul>
+
             </div>
           {% endfor %}
         </td>

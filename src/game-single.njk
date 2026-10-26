@@ -6,7 +6,122 @@ pagination:
 permalink: "/games/{{ gameItem.game }}/"
 layout: layout.njk
 ---
-<h1>{{ gameItem.info.full_name | default(gameItem.game | upper) }}</h1>
+<style>
+  /* NOVO: Estilos do Header com Banner e Logo */
+  .game-header {
+    position: relative;
+    height: 300px; /* Altura fixa do banner */
+    margin-bottom: 30px;
+    margin-top: -15px; /* Compensa a margem padrão do body para o banner colar no topo */
+    border-radius: 8px;
+  }
+
+  .game-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    
+    /* Efeito de Máscara: Sólido no topo, Transparente em baixo */
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%);
+    z-index: 1;
+  }
+
+  .game-logo {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    max-width: 500px; /* Tamanho máximo fixo da logo */
+    max-height: 250px;
+    z-index: 2; /* Garante que fique por cima do banner */
+    object-fit: contain;
+    /* Adiciona uma sombra suave para a logo destacar caso o banner seja muito claro */
+    filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.7));
+  }
+  
+  .game-title-fallback {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+  }
+
+  /* (Mantenha aqui também os estilos antigos de grade da resposta anterior) */
+  .map-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1px;
+    background-color: #333;
+    border: 1px solid #333;
+    margin-top: 20px;
+  }
+  .map-card {
+    background-color: #222;
+    padding: 15px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+  .map-card:hover {
+    background-color: #2a2a2a;
+  }
+  .map-card img {
+    width: 100%;
+    max-width: 180px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    margin-bottom: 12px;
+    background-color: #111;
+  }
+  .map-title {
+    color: #4db8ff;
+    font-weight: bold;
+    font-size: 0.95em;
+    margin-bottom: 5px;
+  }
+  .map-card:hover .map-title {
+    text-decoration: underline;
+  }
+  .map-filename {
+    color: #999;
+    font-family: monospace;
+    font-size: 0.85em;
+    margin-bottom: 8px;
+  }
+  .map-stats {
+    font-size: 0.75em;
+    color: #666;
+    margin-top: auto;
+  }
+</style>
+
+<!-- HEADER COM BANNER E LOGO -->
+<div class="game-header">
+  {% if gameItem.banner %}
+    <div class="game-banner" style="background-image: url('{{ gameItem.banner | url }}');"></div>
+  {% else %}
+    <!-- Fundo base se não houver arquivo banner.* -->
+    <div class="game-banner" style="background-color: #3a3a3a;"></div>
+  {% endif %}
+
+  {% if gameItem.logo %}
+    <img src="{{ gameItem.logo | url }}" alt="Logo de {{ gameItem.info.full_name | default(gameItem.game) }}" class="game-logo">
+  {% else %}
+    <!-- Se não tiver a logo da imagem, mostra o texto do título no lugar onde ficaria a logo -->
+    <h1 class="game-title-fallback">{{ gameItem.info.full_name | default(gameItem.game | upper) }}</h1>
+  {% endif %}
+</div>
 
 {% if gameItem.info %}
   <div style="background: #2a2a2a; padding: 15px; margin-bottom: 20px; border-radius: 5px;">
@@ -41,23 +156,32 @@ layout: layout.njk
 {% endif %}
 
 <h2>Maps in This Game</h2>
-<ul>
+
+<!-- A nova estrutura em Grade -->
+<div class="map-grid">
   {% for map in collections.mapsList %}
     {% if map.game == gameItem.game %}
-      <li style="margin-bottom: 10px;">
-        <a href="{{ ('/games/' + map.game + '/' + map.mapId + '/') | url }}">
-          <strong>{{ map.mapData.title }}</strong> (<code>{{ map.mapData.filename }}</code>)
-        </a> 
+      <a href="{{ ('/games/' + map.game + '/' + map.mapId + '/') | url }}" class="map-card">
         
-        <span style="display: inline-block; margin-left: 15px; font-size: 0.9em;">
+        <!-- Imagem de Capa do Mapa -->
+        <img src="{{ map.mapData.cover_image | url }}" alt="Cover of {{ map.mapData.title }}">
+        
+        <!-- Título em Azul -->
+        <div class="map-title">{{ map.mapData.title }}</div>
+        
+        <!-- Nome do Arquivo Monoespaçado -->
+        <div class="map-filename">{{ map.mapData.filename }}</div>
+        
+        <!-- Porcentagem de Progresso Minimalista -->
+        <div class="map-stats">
           {% if map.stats.percentage == 100 %}
-            ✅ Complete
+            <span style="color: #4caf50;">✅ 100%</span>
           {% else %}
-            ⏳ {{ map.stats.percentage }}% documented
+            ⏳ {{ map.stats.percentage }}% ({{ map.stats.mapped }}/{{ map.stats.total }})
           {% endif %}
-          <span style="color: #888;">({{ map.stats.mapped }}/{{ map.stats.total }} textures)</span>
-        </span>
-      </li>
+        </div>
+
+      </a>
     {% endif %}
   {% endfor %}
-</ul>
+</div>

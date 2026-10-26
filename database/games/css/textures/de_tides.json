@@ -2,7 +2,6 @@
   "cover_image": "/img/maps/de_tides.jpg",
   "title": "Tides",
   "filename": "de_tides.bsp",
-  "before": "de_piranesi",
   "textures": [
     "cstrike_pak_dir.vpk/materials/de_tides/stides_window_1.vtf",
     "cstrike_pak_dir.vpk/materials/de_tides/tides_wooden_arc_door_2.vtf",

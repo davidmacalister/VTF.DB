@@ -2,8 +2,6 @@
   "cover_image": "/img/maps/de_nuke.jpg",
   "title": "Nuke",
   "filename": "de_nuke.bsp",
-  "before": "de_inferno",
-  "next": "de_piranesi",
   "textures": [
     "cstrike_pak_dir.vpk/materials/de_nuke/nuksign01.vtf",
     "cstrike_pak_dir.vpk/materials/de_nuke/nukfloorc_detaile.vtf",

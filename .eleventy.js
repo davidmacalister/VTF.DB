@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+const markdownIt = require('markdown-it');
+const md = new markdownIt({ html: true, breaks: true });
 
 module.exports = function(eleventyConfig) {
     const dbPath = path.join(__dirname, 'database');
@@ -38,18 +40,14 @@ module.exports = function(eleventyConfig) {
             const pkgDir = path.join(libDir, pkg);
             if (!fs.statSync(pkgDir).isDirectory()) continue;
             
-            // NOVO: Define o caminho da pasta assets dentro do pacote
             const assetsDir = path.join(pkgDir, 'data');
             
-            // Verifica se a pasta assets existe antes de tentar ler
             if (fs.existsSync(assetsDir)) {
-                // Lê todas as fotos de dentro da pasta assets
                 const files = fs.readdirSync(assetsDir).filter(f => f.endsWith('.json'));
                 for (const file of files) {
                     const data = JSON.parse(fs.readFileSync(path.join(assetsDir, file), 'utf-8'));
                     if (data.derived_textures) {
                         data.derived_textures.forEach(texture => {
-                            // Registra: "cstrike/materials/brick/havana.vtf" pertence ao "Disk 7"
                             textureToLibrary.set(texture, pkg); 
                         });
                     }
@@ -67,16 +65,32 @@ module.exports = function(eleventyConfig) {
         return fs.readdirSync(gamesDir).filter(item => {
             return fs.statSync(path.join(gamesDir, item)).isDirectory();
         }).map(gameName => {
+            
+            // A VARIÁVEL INFO DEVE ESTAR AQUI
             let info = {};
             const infoPath = path.join(gamesDir, gameName, 'info.json');
             if (fs.existsSync(infoPath)) {
                 info = JSON.parse(fs.readFileSync(infoPath, 'utf-8'));
             }
             
+            // Busca de imagens banner e logo
+            const exts = ['.png', '.jpg', '.jpeg', '.webp', '.jxl', '.gif'];
+            let bannerFile = null;
+            let logoFile = null;
+            for (const ext of exts) {
+                if (!bannerFile && fs.existsSync(path.join(gamesDir, gameName, 'banner' + ext))) {
+                    bannerFile = `/database/games/${gameName}/banner${ext}`;
+                }
+                if (!logoFile && fs.existsSync(path.join(gamesDir, gameName, 'logo' + ext))) {
+                    logoFile = `/database/games/${gameName}/logo${ext}`;
+                }
+            }
+            
             let usedLibraries = new Set();
             let mappedTextureCount = 0;
             let totalTextureCount = 0;
             const texturesDir = path.join(gamesDir, gameName, 'textures');
+            
             if (fs.existsSync(texturesDir)) {
                 const files = fs.readdirSync(texturesDir).filter(f => f.endsWith('.json'));
                 for (const file of files) {
@@ -98,8 +112,10 @@ module.exports = function(eleventyConfig) {
             
             return { 
                 game: gameName, 
-                info: info,
-                usedLibraries: Array.from(usedLibraries).sort(),
+               info: info,
+               banner: bannerFile,
+               logo: logoFile,
+               usedLibraries: Array.from(usedLibraries).sort(),
                stats: {
                    mapped: mappedTextureCount,
                total: totalTextureCount,
@@ -125,6 +141,14 @@ module.exports = function(eleventyConfig) {
                     const fileContent = fs.readFileSync(path.join(texturesDir, file), 'utf-8');
                     const data = JSON.parse(fileContent);
                     
+                    // NOVO: Procura por um arquivo .md com o mesmo nome do .json do mapa
+                    const mdPath = path.join(texturesDir, file.replace('.json', '.md'));
+                    let descriptionHtml = null;
+                    if (fs.existsSync(mdPath)) {
+                        const mdContent = fs.readFileSync(mdPath, 'utf-8');
+                        descriptionHtml = md.render(mdContent);
+                    }
+                    
                     let mappedCount = 0;
                     const totalCount = data.textures ? data.textures.length : 0;
                     
@@ -146,6 +170,7 @@ module.exports = function(eleventyConfig) {
                         game: game,
                         mapId: file.replace('.json', ''),
                                  mapData: data,
+                                 descriptionHtml: descriptionHtml,
                                  contributors: contributors,
                                  stats: {
                                      total: totalCount,
@@ -156,28 +181,7 @@ module.exports = function(eleventyConfig) {
                 }
             }
         }
-
-        for (const map of allMaps) {
-            for (const direction of ['before', 'next']) {
-                const targetMapId = map.mapData[direction];
-                if (!targetMapId) continue;
-
-                const targetMap = allMaps.find(candidate =>
-                    candidate.game === map.game && candidate.mapId === targetMapId
-                );
-                if (!targetMap) {
-                    throw new Error(
-                        `Map "${map.game}/${map.mapId}" has an invalid "${direction}" target: "${targetMapId}".`
-                    );
-                }
-                map[`${direction}Map`] = {
-                    game: targetMap.game,
-                    mapId: targetMap.mapId,
-                    title: targetMap.mapData.title
-                };
-            }
-        }
-
+        
         return allMaps;
     });
     
@@ -191,19 +195,33 @@ module.exports = function(eleventyConfig) {
             const pkgDir = path.join(libDir, pkg);
             if (!fs.statSync(pkgDir).isDirectory()) continue;
             
-            // Continua lendo o info.json da raiz do pacote
             let info = {};
             const infoPath = path.join(pkgDir, 'info.json');
             if (fs.existsSync(infoPath)) {
                 info = JSON.parse(fs.readFileSync(infoPath, 'utf-8'));
             }
             
-            // NOVO: Lê as imagens a partir da pasta assets
+            const mdPath = path.join(pkgDir, 'description.md');
+            let descriptionHtml = null;
+            if (fs.existsSync(mdPath)) {
+                const mdContent = fs.readFileSync(mdPath, 'utf-8');
+                descriptionHtml = md.render(mdContent);
+            }
+            
+            // NOVO: Lógica para encontrar o arquivo cover.* independentemente do formato
+            const exts = ['.png', '.jpg', '.jpeg', '.webp', '.jxl', '.gif'];
+            let coverFile = null;
+            for (const ext of exts) {
+                if (fs.existsSync(path.join(pkgDir, 'cover' + ext))) {
+                    coverFile = `/database/library/${pkg}/cover${ext}`;
+                    break;
+                }
+            }
+            
             const assetsDir = path.join(pkgDir, 'data');
             let originImages = [];
             
             if (fs.existsSync(assetsDir)) {
-                // Como já está em assets/, não precisamos mais filtrar 'info.json'
                 const files = fs.readdirSync(assetsDir).filter(f => f.endsWith('.json'));
                 
                 for (const file of files) {
@@ -218,6 +236,8 @@ module.exports = function(eleventyConfig) {
             allLibraries.push({
                 libraryName: pkg,
                 info: info,
+                descriptionHtml: descriptionHtml,
+                cover: coverFile, // NOVO: Passa a imagem de capa para o template HTML
                 images: originImages
             });
         }
@@ -226,6 +246,19 @@ module.exports = function(eleventyConfig) {
     
     eleventyConfig.addPassthroughCopy({"database/assets/img": "img"});
     
+    eleventyConfig.addPassthroughCopy("database/library/**/*.png");
+    eleventyConfig.addPassthroughCopy("database/library/**/*.jpg");
+    eleventyConfig.addPassthroughCopy("database/library/**/*.jpeg");
+    eleventyConfig.addPassthroughCopy("database/library/**/*.webp");
+    eleventyConfig.addPassthroughCopy("database/library/**/*.jxl");
+    eleventyConfig.addPassthroughCopy("database/library/**/*.gif");
+
+    eleventyConfig.addPassthroughCopy("database/games/**/*.png");
+    eleventyConfig.addPassthroughCopy("database/games/**/*.jpg");
+    eleventyConfig.addPassthroughCopy("database/games/**/*.jpeg");
+    eleventyConfig.addPassthroughCopy("database/games/**/*.webp");
+    eleventyConfig.addPassthroughCopy("database/games/**/*.jxl");
+    eleventyConfig.addPassthroughCopy("database/games/**/*.gif");
     return {
         pathPrefix: process.env.ELEVENTY_PATH_PREFIX || "/",
         dir: {

@@ -2,7 +2,6 @@
   "cover_image": "/img/maps/cs_assault.jpg",
   "title": "Assault",
   "filename": "cs_assault.bsp",
-  "next": "cs_havana",
   "textures": [
     "cstrike_pak_dir.vpk/materials/models/props/cs_assault/washer_box.vtf",
     "cstrike_pak_dir.vpk/materials/cs_assault/assault_dumping_decal02.vtf",

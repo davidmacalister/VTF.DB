@@ -1,0 +1,1 @@
+texto markdown antes das comparações

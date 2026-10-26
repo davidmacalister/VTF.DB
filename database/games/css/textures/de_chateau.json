@@ -2,8 +2,6 @@
   "cover_image": "/img/maps/de_chateau.jpg",
   "title": "Chateau",
   "filename": "de_chateau.bsp",
-  "before": "cs_cbble",
-  "next": "cs_dust",
   "textures": [
     "cstrike_pak_dir.vpk/materials/de_chateau/woodm.vtf",
     "cstrike_pak_dir.vpk/materials/de_chateau/brickfdoorc01.vtf",

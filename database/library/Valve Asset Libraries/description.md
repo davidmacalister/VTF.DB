@@ -1,0 +1,1 @@
+As texturas do primeiro Half-Life foram feitos a partir de muitas fotográfias próprias para o jogo, formando assim a ambientação do jogo que conhecemos. Grande parte destas fotográfias e texturas são da artista e designer Karen Laur, que grande parte de suas criações foram reutilizados em outros jogos da Valve.

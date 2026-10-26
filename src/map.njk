@@ -6,6 +6,42 @@ pagination:
 permalink: "/games/{{ mapItem.game }}/{{ mapItem.mapId }}/"
 layout: layout.njk
 ---
+<style>
+  /* CSS Corrigido: Fiel à referência, sem contornos ou caixas de fundo na linha */
+  .info-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .info-thumb {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    background-color: #333;
+    /* Removido o border-radius para deixar os cantos vivos/quadrados */
+  }
+  .info-badge {
+    background-color: #202430;
+    color: #6392d8;
+    padding: 4px 8px;
+    border-radius: 4px; /* Leve arredondamento apenas no fundo azul do texto, como na referência */
+    font-family: monospace;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+  a.info-badge:hover {
+    background-color: #2a3040;
+    color: #84aef0;
+  }
+  .info-text {
+    color: #d19a66;
+    font-size: 0.9em;
+    font-family: sans-serif;
+  }
+</style>
+
 <h1>{{ mapItem.mapData.title }}</h1>
 <p>Game: {{ mapItem.game | upper }} | File: <code>{{ mapItem.mapData.filename }}</code></p>
 
@@ -16,7 +52,15 @@ layout: layout.njk
   </div>
 </div>
 
-<img src="{{ mapItem.mapData.cover_image | url }}" alt="Capa de {{ mapItem.mapData.title }}">
+{% if mapItem.mapData.cover_image %}
+  <img src="{{ mapItem.mapData.cover_image | url }}" alt="Cover of {{ mapItem.mapData.title }}" style="max-width: 300px; margin-bottom: 20px;">
+{% endif %}
+
+{% if mapItem.descriptionHtml %}
+  <div style="margin-bottom: 30px; line-height: 1.6; font-size: 1.05em; color: #ddd;">
+    {{ mapItem.descriptionHtml | safe }}
+  </div>
+{% endif %}
 
 {% for texturePath in mapItem.mapData.textures %}
   
@@ -31,31 +75,40 @@ layout: layout.njk
     </thead>
     <tbody>
       <tr>
-        <td>
+        <td style="vertical-align: top;">
           {% set manualImage = textureCatalog[texturePath] %}
           
           {% if manualImage %}
-            <!-- ALTERADO PARA /img/tex/ -->
-            <img src="{{ ('/img/tex/' + manualImage) | url }}" alt="Modified texture">
+            <img src="{{ ('/img/tex/' + manualImage) | url }}" alt="Modified texture" style="max-width: 250px; margin-bottom: 10px;">
           {% else %}
             <div style="padding: 10px; border: 1px dashed red; margin-bottom: 5px;">
               🚫 Image not linked
             </div>
           {% endif %}
           
-          <code>{{ texturePath }}</code>
+          <br><code>{{ texturePath }}</code>
         </td>
 
-        <td>
+        <td style="vertical-align: top;">
           {% set foundOrigin = false %}
           
           {% for lib in collections.librariesList %}
             {% for img in lib.images %}
               {% if texturePath in img.imageData.derived_textures %}
-                <!-- ALTERADO PARA /img/src/ -->
-                <img src="{{ ('/img/src/' + img.imageId + '.jpg') | url }}" alt="Source photo">
-                <code>{{ img.imageData.original_path }}</code><br>
-                <a href="{{ ('/library/' + (lib.libraryName | slugify) + '/') | url }}">{{ lib.libraryName }}</a>
+                <img src="{{ ('/img/src/' + img.imageId + '.jpg') | url }}" alt="Source photo" style="max-width: 250px;">
+                
+                <div class="info-row">
+                  {% if lib.cover %}
+                    <img src="{{ lib.cover | url }}" alt="Library Cover" class="info-thumb">
+                  {% else %}
+                    <div class="info-thumb"></div>
+                  {% endif %}
+                  
+                  <a href="{{ ('/library/' + (lib.libraryName | slugify) + '/') | url }}" class="info-badge">{{ lib.libraryName }}</a>
+                  <span class="info-text">image:</span>
+                  <span class="info-badge">{{ img.imageData.original_path.split('/') | last | default(img.imageId) }}</span>
+                </div>
+
                 {% set foundOrigin = true %}
               {% endif %}
             {% endfor %}
@@ -67,7 +120,9 @@ layout: layout.njk
 
           {% for contributor in mapItem.contributors %}
             {% if texturePath in contributor.textures %}
-              <br><strong>Found by:</strong> {{ contributor.name }}
+              <div style="margin-top: 10px; font-size: 0.9em; color: #888;">
+                <strong>Found by:</strong> {{ contributor.name }}
+              </div>
             {% endif %}
           {% endfor %}
         </td>
@@ -104,20 +159,3 @@ layout: layout.njk
     <p>No references added yet.</p>
   {% endif %}
 </section>
-
-<nav aria-label="Map navigation" style="display: flex; justify-content: space-between; gap: 20px; margin-top: 40px; padding-top: 20px; border-top: 1px solid #444;">
-  <div>
-    {% if mapItem.beforeMap %}
-      <a href="{{ ('/games/' + mapItem.beforeMap.game + '/' + mapItem.beforeMap.mapId + '/') | url }}">
-        ← Previous: {{ mapItem.beforeMap.title }}
-      </a>
-    {% endif %}
-  </div>
-  <div>
-    {% if mapItem.nextMap %}
-      <a href="{{ ('/games/' + mapItem.nextMap.game + '/' + mapItem.nextMap.mapId + '/') | url }}">
-        Next: {{ mapItem.nextMap.title }} →
-      </a>
-    {% endif %}
-  </div>
-</nav>

@@ -2,8 +2,6 @@
   "cover_image": "/img/maps/de_piranese.jpg",
   "title": "Piranese",
   "filename": "de_piranese.bsp",
-  "before": "de_nuke",
-  "next": "de_tides",
   "textures": [
     "cstrike_pak_dir.vpk/materials/de_piranese/wooddoor01.vtf",
     "cstrike_pak_dir.vpk/materials/de_piranese/walltrim01.vtf",

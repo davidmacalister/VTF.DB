@@ -1,0 +1,1 @@
+Todas as imagens são propriedade intelectual (c)1996 de Judy A. Juracek
